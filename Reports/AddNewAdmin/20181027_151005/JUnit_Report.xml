@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddNewAdmin" time="25" tests="1" failures="0" errors="1">
+   <testsuite name="AddNewAdmin" tests="1" failures="0" errors="1" time="25" timestamp="2018-10-27 15:10:08" hostname="Renu - Renu-PC" id="Test Suites/AddNewAdmin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\AddNewAdmin\\20181027_151005"/>
+         <property name="logFiles" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\AddNewAdmin\\20181027_151005\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Renu - Renu-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="192.168.1.75"/>
+         <property name="sessionId" value="1b218ea5-7d31-49e1-bc22-3b1e9a770bcc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/NavigateToUrl" classname="Test Cases/Common/NavigateToUrl" status="PASSED">
+         <system-out><![CDATA[2018-10-27 15:10:09 - [TEST_CASE][PASSED] - Test Cases/Common/NavigateToUrl: Test Cases/Common/NavigateToUrl
+
+2018-10-27 15:10:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-27 15:10:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-27 15:10:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-27 15:10:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-27 15:10:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-27 15:10:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-27 15:10:32 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LoginAsAdmin" classname="Test Cases/Common/LoginAsAdmin" status="ERROR">
+         <error type="ERROR" message="Test Cases/Common/LoginAsAdmin FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: phpTravels.commonUtils.login() is applicable for argument types: (java.lang.String, java.lang.String) values: [admin@phptravels.com, demoadmin]
+Possible solutions: Login(java.lang.String, java.lang.String), notify(), wait(), find()"/>
+         <system-out><![CDATA[2018-10-27 15:10:32 - [TEST_CASE][ERROR] - Test Cases/Common/LoginAsAdmin: Test Cases/Common/LoginAsAdmin FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: phpTravels.commonUtils.login() is applicable for argument types: (java.lang.String, java.lang.String) values: [admin@phptravels.com, demoadmin]
+Possible solutions: Login(java.lang.String, java.lang.String), notify(), wait(), find()
+
+2018-10-27 15:10:32 - [TEST_STEP][ERROR] - phpTravels.commonUtils.login: No signature of method: phpTravels.commonUtils.login() is applicable for argument types: (java.lang.String, java.lang.String) values: [admin@phptravels.com, demoadmin]
+Possible solutions: Login(java.lang.String, java.lang.String), notify(), wait(), find()
+
+2018-10-27 15:10:32 - [MESSAGE][ERROR] - No signature of method: phpTravels.commonUtils.login() is applicable for argument types: (java.lang.String, java.lang.String) values: [admin@phptravels.com, demoadmin]
+Possible solutions: Login(java.lang.String, java.lang.String), notify(), wait(), find()]]></system-out>
+         <system-err><![CDATA[2018-10-27 15:10:32 - [TEST_CASE][ERROR] - Test Cases/Common/LoginAsAdmin: Test Cases/Common/LoginAsAdmin FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: phpTravels.commonUtils.login() is applicable for argument types: (java.lang.String, java.lang.String) values: [admin@phptravels.com, demoadmin]
+Possible solutions: Login(java.lang.String, java.lang.String), notify(), wait(), find()]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-27 15:10:08 - [TEST_SUITE][ERROR] - AddNewAdmin: Test Cases/Common/LoginAsAdmin FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: phpTravels.commonUtils.login() is applicable for argument types: (java.lang.String, java.lang.String) values: [admin@phptravels.com, demoadmin]
+Possible solutions: Login(java.lang.String, java.lang.String), notify(), wait(), find()]]></system-out>
+      <system-err><![CDATA[2018-10-27 15:10:08 - [TEST_SUITE][ERROR] - AddNewAdmin: Test Cases/Common/LoginAsAdmin FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: phpTravels.commonUtils.login() is applicable for argument types: (java.lang.String, java.lang.String) values: [admin@phptravels.com, demoadmin]
+Possible solutions: Login(java.lang.String, java.lang.String), notify(), wait(), find()]]></system-err>
+   </testsuite>
+</testsuites>

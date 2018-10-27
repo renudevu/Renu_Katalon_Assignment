@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CreateAdminandLogin,Firefox 62.0,,2018-10-26 19:05:23,2018-10-26 19:05:47,23.978s,INCOMPLETE
+,,,,,,
+Test Cases/Common/LoginAsAdmin,Firefox 62.0,,2018-10-26 19:05:24,2018-10-26 19:05:37,12.896s,FAILED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails),Firefox 62.0,,2018-10-26 19:05:25,2018-10-26 19:05:25,0.845s,PASSED
+"Statement - userName = dbdata.getValue(5, 2)",Firefox 62.0,,2018-10-26 19:05:25,2018-10-26 19:05:26,0.017s,PASSED
+"Statement - password = dbdata.getValue(2, 2)",Firefox 62.0,,2018-10-26 19:05:26,2018-10-26 19:05:26,0.002s,PASSED
+phpTravels.commonUtils.loginToPHPTravels,Firefox 62.0,,2018-10-26 19:05:26,2018-10-26 19:05:37,11.360s,FAILED
+,,,,,,
+Test Cases/CreateUser/AddAdmin,Firefox 62.0,,2018-10-26 19:05:37,2018-10-26 19:05:38,0.784s,FAILED
+phpTravels.PhpKeys.navigateToCreateAdminPage,Firefox 62.0,,2018-10-26 19:05:37,2018-10-26 19:05:38,0.236s,FAILED
+,,,,,,
+Test Cases/Common/LoginAsCreatedAdmin,Firefox 62.0,,2018-10-26 19:05:38,2018-10-26 19:05:46,8.719s,FAILED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails),Firefox 62.0,,2018-10-26 19:05:38,2018-10-26 19:05:39,0.114s,PASSED
+"Statement - userName = dbdata.getValue(5, 1)",Firefox 62.0,,2018-10-26 19:05:39,2018-10-26 19:05:39,0.006s,PASSED
+"Statement - password = dbdata.getValue(2, 1)",Firefox 62.0,,2018-10-26 19:05:39,2018-10-26 19:05:39,0.025s,PASSED
+phpTravels.commonUtils.loginToPHPTravels,Firefox 62.0,,2018-10-26 19:05:39,2018-10-26 19:05:46,7.924s,FAILED
+,,,,,,
+Test Cases/CreateTour/BookTour,Firefox 62.0,,2018-10-26 19:05:46,2018-10-26 19:05:47,0.574s,FAILED
+phpTravels.TourKeys.navigateToNewTour,Firefox 62.0,,2018-10-26 19:05:47,2018-10-26 19:05:47,0.034s,FAILED

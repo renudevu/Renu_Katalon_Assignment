@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AddNewAdmin,Firefox 62.0,,2018-10-27 17:21:26,2018-10-27 17:21:56,29.759s,ERROR
+,,,,,,
+Test Cases/Common/NavigateToUrl,Firefox 62.0,,2018-10-27 17:21:27,2018-10-27 17:21:43,16.303s,PASSED
+openBrowser,Firefox 62.0,,2018-10-27 17:21:27,2018-10-27 17:21:34,7.231s,PASSED
+openBrowser,Firefox 62.0,,2018-10-27 17:21:34,2018-10-27 17:21:40,5.630s,PASSED
+navigateToUrl,Firefox 62.0,,2018-10-27 17:21:40,2018-10-27 17:21:43,2.848s,PASSED
+,,,,,,
+Test Cases/Common/LoginAsAdmin,Firefox 62.0,,2018-10-27 17:21:43,2018-10-27 17:21:45,1.621s,PASSED
+phpTravels.Common.Login,Firefox 62.0,,2018-10-27 17:21:43,2018-10-27 17:21:45,1.080s,PASSED
+,,,,,,
+Test Cases/User/AddAdmin,Firefox 62.0,,2018-10-27 17:21:45,2018-10-27 17:21:55,10.380s,ERROR
+phpTravels.Admin.NavigateToAdminPage,Firefox 62.0,,2018-10-27 17:21:45,2018-10-27 17:21:54,8.999s,PASSED
+phpTravels.Admin.SetAdminDetails,Firefox 62.0,,2018-10-27 17:21:54,2018-10-27 17:21:55,0.987s,ERROR

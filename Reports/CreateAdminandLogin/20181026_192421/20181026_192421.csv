@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CreateAdminandLogin,Firefox 62.0,,2018-10-26 19:24:24,2018-10-26 19:25:37,1m - 12.839s,FAILED
+,,,,,,
+Test Cases/Common/LoginAsAdmin,Firefox 62.0,,2018-10-26 19:24:25,2018-10-26 19:24:39,14.949s,PASSED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails),Firefox 62.0,,2018-10-26 19:24:25,2018-10-26 19:24:26,0.889s,PASSED
+"Statement - userName = dbdata.getValue(5, 2)",Firefox 62.0,,2018-10-26 19:24:26,2018-10-26 19:24:26,0.025s,PASSED
+"Statement - password = dbdata.getValue(2, 2)",Firefox 62.0,,2018-10-26 19:24:26,2018-10-26 19:24:26,0.006s,PASSED
+phpTravels.commonUtils.loginToPHPTravels,Firefox 62.0,,2018-10-26 19:24:26,2018-10-26 19:24:39,13.368s,PASSED
+,,,,,,
+Test Cases/CreateUser/AddAdmin,Firefox 62.0,,2018-10-26 19:24:39,2018-10-26 19:25:07,27.245s,PASSED
+phpTravels.PhpKeys.navigateToCreateAdminPage,Firefox 62.0,,2018-10-26 19:24:40,2018-10-26 19:24:51,10.148s,PASSED
+phpTravels.PhpKeys.provideAdminDetails,Firefox 62.0,,2018-10-26 19:24:51,2018-10-26 19:24:56,4.885s,PASSED
+phpTravels.PhpKeys.provideAccessDetailsForAdd,Firefox 62.0,,2018-10-26 19:24:56,2018-10-26 19:24:57,1.463s,PASSED
+phpTravels.PhpKeys.provideAccessDetailsForEdit,Firefox 62.0,,2018-10-26 19:24:57,2018-10-26 19:24:58,1.497s,PASSED
+phpTravels.PhpKeys.provideAccessDetailsForRemove,Firefox 62.0,,2018-10-26 19:24:58,2018-10-26 19:25:00,1.594s,PASSED
+phpTravels.PhpKeys.saveAdmin,Firefox 62.0,,2018-10-26 19:25:00,2018-10-26 19:25:07,6.659s,PASSED
+,,,,,,
+Test Cases/Common/LoginAsCreatedAdmin,Firefox 62.0,,2018-10-26 19:25:07,2018-10-26 19:25:20,12.948s,PASSED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails),Firefox 62.0,,2018-10-26 19:25:07,2018-10-26 19:25:07,0.151s,PASSED
+"Statement - userName = dbdata.getValue(5, 1)",Firefox 62.0,,2018-10-26 19:25:07,2018-10-26 19:25:07,0.001s,PASSED
+"Statement - password = dbdata.getValue(2, 1)",Firefox 62.0,,2018-10-26 19:25:07,2018-10-26 19:25:07,0.012s,PASSED
+phpTravels.commonUtils.loginToPHPTravels,Firefox 62.0,,2018-10-26 19:25:07,2018-10-26 19:25:20,12.376s,PASSED
+,,,,,,
+Test Cases/CreateTour/BookTour,Firefox 62.0,,2018-10-26 19:25:20,2018-10-26 19:25:36,15.892s,FAILED
+phpTravels.TourKeys.navigateToNewTour,Firefox 62.0,,2018-10-26 19:25:20,2018-10-26 19:25:33,12.900s,PASSED
+phpTravels.TourKeys.provideTourDetails,Firefox 62.0,,2018-10-26 19:25:33,2018-10-26 19:25:35,2.177s,FAILED

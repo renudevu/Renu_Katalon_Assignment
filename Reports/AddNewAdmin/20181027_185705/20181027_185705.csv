@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AddNewAdmin,Firefox 62.0,,2018-10-27 18:57:08,2018-10-27 18:57:40,32.666s,ERROR
+,,,,,,
+Test Cases/Common/NavigateToUrl,Firefox 62.0,,2018-10-27 18:57:08,2018-10-27 18:57:26,17.286s,PASSED
+openBrowser,Firefox 62.0,,2018-10-27 18:57:09,2018-10-27 18:57:17,7.855s,PASSED
+openBrowser,Firefox 62.0,,2018-10-27 18:57:17,2018-10-27 18:57:23,5.924s,PASSED
+navigateToUrl,Firefox 62.0,,2018-10-27 18:57:23,2018-10-27 18:57:26,2.813s,PASSED
+,,,,,,
+Test Cases/Common/Login,Firefox 62.0,,2018-10-27 18:57:26,2018-10-27 18:57:28,2.128s,PASSED
+phpTravels.Common.Login,Firefox 62.0,,2018-10-27 18:57:26,2018-10-27 18:57:28,1.632s,PASSED
+,,,,,,
+Test Cases/User/AddAdmin,Firefox 62.0,,2018-10-27 18:57:28,2018-10-27 18:57:39,10.948s,ERROR
+phpTravels.Admin.NavigateToAdminPage,Firefox 62.0,,2018-10-27 18:57:29,2018-10-27 18:57:39,10.104s,PASSED
+phpTravels.Admin.SetAdminDetails,Firefox 62.0,,2018-10-27 18:57:39,2018-10-27 18:57:39,0.071s,ERROR
+,,,,,,
+Test Cases/Common/LoginFromDatabase,Firefox 62.0,,2018-10-27 18:57:39,2018-10-27 18:57:40,1.169s,ERROR
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(userDetail),Firefox 62.0,,2018-10-27 18:57:39,2018-10-27 18:57:40,0.671s,PASSED
+"Statement - userName = dbdata.getValue(Email.ordinal(), userIndex)",Firefox 62.0,,2018-10-27 18:57:40,2018-10-27 18:57:40,0.081s,PASSED

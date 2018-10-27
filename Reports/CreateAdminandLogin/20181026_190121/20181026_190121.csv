@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CreateAdminandLogin,,,2018-10-26 19:01:24,2018-10-26 19:01:28,3.574s,ERROR
+,,,,,,
+Test Cases/Common/LoginAsAdmin,,,2018-10-26 19:01:25,2018-10-26 19:01:26,1.674s,ERROR
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails),,,2018-10-26 19:01:25,2018-10-26 19:01:26,0.859s,PASSED
+"Statement - userName = dbdata.getValue(5, 2)",,,2018-10-26 19:01:26,2018-10-26 19:01:26,0.016s,PASSED
+"Statement - password = dbdata.getValue(2, 2)",,,2018-10-26 19:01:26,2018-10-26 19:01:26,0.003s,PASSED
+phpTravels.commonUtils.loginToPHPTravels,,,2018-10-26 19:01:26,2018-10-26 19:01:26,0.005s,ERROR
+,,,,,,
+Test Cases/CreateUser/AddAdmin,,,2018-10-26 19:01:26,2018-10-26 19:01:26,0.256s,ERROR
+phpTravels.PhpKeys.navigateToCreateAdminPage,,,2018-10-26 19:01:26,2018-10-26 19:01:26,0.003s,ERROR
+,,,,,,
+Test Cases/Common/LoginAsCreatedAdmin,,,2018-10-26 19:01:26,2018-10-26 19:01:27,0.642s,ERROR
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails),,,2018-10-26 19:01:27,2018-10-26 19:01:27,0.219s,PASSED
+"Statement - userName = dbdata.getValue(5, 1)",,,2018-10-26 19:01:27,2018-10-26 19:01:27,0.001s,PASSED
+"Statement - password = dbdata.getValue(2, 1)",,,2018-10-26 19:01:27,2018-10-26 19:01:27,0.004s,PASSED
+phpTravels.commonUtils.loginToPHPTravels,,,2018-10-26 19:01:27,2018-10-26 19:01:27,0.003s,ERROR
+,,,,,,
+Test Cases/CreateTour/BookTour,,,2018-10-26 19:01:27,2018-10-26 19:01:27,0.345s,ERROR
+phpTravels.TourKeys.navigateToNewTour,,,2018-10-26 19:01:27,2018-10-26 19:01:27,0.002s,ERROR

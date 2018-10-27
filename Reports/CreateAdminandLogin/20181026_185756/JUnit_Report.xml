@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateAdminandLogin" time="4" tests="0" failures="0" errors="4">
+   <testsuite name="CreateAdminandLogin" tests="0" failures="0" errors="4" time="4" timestamp="2018-10-26 18:58:00" hostname="Renu - Renu-PC" id="Test Suites/CreateAdminandLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\CreateAdminandLogin\\20181026_185756"/>
+         <property name="logFiles" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\CreateAdminandLogin\\20181026_185756\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Renu - Renu-PC"/>
+         <property name="hostAddress" value="192.168.1.75"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+      </properties>
+      <testcase name="Test Cases/Common/LoginAsSuperAdmin" classname="Test Cases/Common/LoginAsSuperAdmin" status="ERROR">
+         <error type="ERROR" message="Test Cases/Common/LoginAsSuperAdmin FAILED because (of) java.lang.ClassNotFoundException: phpTravels.commonUtils"/>
+         <system-out><![CDATA[2018-10-26 18:58:01 - [TEST_CASE][ERROR] - Test Cases/Common/LoginAsSuperAdmin: Test Cases/Common/LoginAsSuperAdmin FAILED because (of) java.lang.ClassNotFoundException: phpTravels.commonUtils
+
+2018-10-26 18:58:02 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails): Reading database data with query 'SELECT * FROM katalon_saranya_16_oct_18.users'
+
+2018-10-26 18:58:03 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(5, 2): null
+
+2018-10-26 18:58:03 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(2, 2): null
+
+2018-10-26 18:58:03 - [TEST_STEP][ERROR] - phpTravels.commonUtils.loginToPHPTravels: phpTravels.commonUtils
+
+2018-10-26 18:58:03 - [MESSAGE][ERROR] - phpTravels.commonUtils]]></system-out>
+         <system-err><![CDATA[2018-10-26 18:58:01 - [TEST_CASE][ERROR] - Test Cases/Common/LoginAsSuperAdmin: Test Cases/Common/LoginAsSuperAdmin FAILED because (of) java.lang.ClassNotFoundException: phpTravels.commonUtils]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser/CreateNewAdmin" classname="Test Cases/CreateUser/CreateNewAdmin" status="ERROR">
+         <error type="ERROR" message="Test Cases/CreateUser/CreateNewAdmin FAILED because (of) java.lang.ClassNotFoundException: phpTravels.PhpKeys"/>
+         <system-out><![CDATA[2018-10-26 18:58:03 - [TEST_CASE][ERROR] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) java.lang.ClassNotFoundException: phpTravels.PhpKeys
+
+2018-10-26 18:58:03 - [TEST_STEP][ERROR] - phpTravels.PhpKeys.navigateToCreateAdminPage: phpTravels.PhpKeys
+
+2018-10-26 18:58:03 - [MESSAGE][ERROR] - phpTravels.PhpKeys]]></system-out>
+         <system-err><![CDATA[2018-10-26 18:58:03 - [TEST_CASE][ERROR] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) java.lang.ClassNotFoundException: phpTravels.PhpKeys]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LoginAsNewAdmin" classname="Test Cases/Common/LoginAsNewAdmin" status="ERROR">
+         <error type="ERROR" message="Test Cases/Common/LoginAsNewAdmin FAILED because (of) java.lang.ClassNotFoundException: phpTravels.commonUtils"/>
+         <system-out><![CDATA[2018-10-26 18:58:03 - [TEST_CASE][ERROR] - Test Cases/Common/LoginAsNewAdmin: Test Cases/Common/LoginAsNewAdmin FAILED because (of) java.lang.ClassNotFoundException: phpTravels.commonUtils
+
+2018-10-26 18:58:04 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails): Reading database data with query 'SELECT * FROM katalon_saranya_16_oct_18.users'
+
+2018-10-26 18:58:04 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(5, 1): null
+
+2018-10-26 18:58:04 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(2, 1): null
+
+2018-10-26 18:58:04 - [TEST_STEP][ERROR] - phpTravels.commonUtils.loginToPHPTravels: phpTravels.commonUtils
+
+2018-10-26 18:58:04 - [MESSAGE][ERROR] - phpTravels.commonUtils]]></system-out>
+         <system-err><![CDATA[2018-10-26 18:58:03 - [TEST_CASE][ERROR] - Test Cases/Common/LoginAsNewAdmin: Test Cases/Common/LoginAsNewAdmin FAILED because (of) java.lang.ClassNotFoundException: phpTravels.commonUtils]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateTour/CreateATour" classname="Test Cases/CreateTour/CreateATour" status="ERROR">
+         <error type="ERROR" message="Test Cases/CreateTour/CreateATour FAILED because (of) java.lang.ClassNotFoundException: phpTravels.TourKeys"/>
+         <system-out><![CDATA[2018-10-26 18:58:04 - [TEST_CASE][ERROR] - Test Cases/CreateTour/CreateATour: Test Cases/CreateTour/CreateATour FAILED because (of) java.lang.ClassNotFoundException: phpTravels.TourKeys
+
+2018-10-26 18:58:05 - [TEST_STEP][ERROR] - phpTravels.TourKeys.navigateToNewTour: phpTravels.TourKeys
+
+2018-10-26 18:58:05 - [MESSAGE][ERROR] - phpTravels.TourKeys]]></system-out>
+         <system-err><![CDATA[2018-10-26 18:58:04 - [TEST_CASE][ERROR] - Test Cases/CreateTour/CreateATour: Test Cases/CreateTour/CreateATour FAILED because (of) java.lang.ClassNotFoundException: phpTravels.TourKeys]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-26 18:58:00 - [TEST_SUITE][ERROR] - CreateAdminandLogin: Test Cases/Common/LoginAsSuperAdmin FAILED because (of) java.lang.ClassNotFoundException: phpTravels.commonUtils]]></system-out>
+      <system-err><![CDATA[2018-10-26 18:58:00 - [TEST_SUITE][ERROR] - CreateAdminandLogin: Test Cases/Common/LoginAsSuperAdmin FAILED because (of) java.lang.ClassNotFoundException: phpTravels.commonUtils]]></system-err>
+   </testsuite>
+</testsuites>

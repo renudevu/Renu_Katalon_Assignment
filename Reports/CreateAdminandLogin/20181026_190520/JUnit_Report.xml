@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateAdminandLogin" time="23" tests="0" failures="4" errors="0">
+   <testsuite name="CreateAdminandLogin" tests="0" failures="4" errors="0" time="23" timestamp="2018-10-26 19:05:23" hostname="Renu - Renu-PC" id="Test Suites/CreateAdminandLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\CreateAdminandLogin\\20181026_190520"/>
+         <property name="logFiles" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\CreateAdminandLogin\\20181026_190520\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\CreateAdminandLogin\\20181026_190520\\1540560937000.png, D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\CreateAdminandLogin\\20181026_190520\\1540560938045.png"/>
+         <property name="hostName" value="Renu - Renu-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="192.168.1.75"/>
+         <property name="sessionId" value="7f6e4204-214c-4c68-8281-140d007c2aff"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/LoginAsAdmin" classname="Test Cases/Common/LoginAsAdmin" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-10-26 19:05:24 - [TEST_CASE][FAILED] - Test Cases/Common/LoginAsAdmin: Test Cases/Common/LoginAsAdmin FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-10-26 19:05:25 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails): Reading database data with query 'SELECT * FROM katalon_saranya_16_oct_18.users'
+
+2018-10-26 19:05:25 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(5, 2): null
+
+2018-10-26 19:05:26 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(2, 2): null
+
+2018-10-26 19:05:26 - [TEST_STEP][FAILED] - phpTravels.commonUtils.loginToPHPTravels: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-10-26 19:05:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-26 19:05:36 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-26 19:05:36 - [MESSAGE][WARNING] - Test object with id 'Object Repository/common/super_admin/Page_Administator Login/input_email' does not exist
+
+2018-10-26 19:05:36 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-10-26 19:05:37 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\CreateAdminandLogin\\20181026_190520\\1540560937000.png]]
+
+2018-10-26 19:05:37 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+         <system-err><![CDATA[2018-10-26 19:05:24 - [TEST_CASE][FAILED] - Test Cases/Common/LoginAsAdmin: Test Cases/Common/LoginAsAdmin FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser/AddAdmin" classname="Test Cases/CreateUser/AddAdmin" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-10-26 19:05:37 - [TEST_CASE][FAILED] - Test Cases/CreateUser/AddAdmin: Test Cases/CreateUser/AddAdmin FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-10-26 19:05:37 - [TEST_STEP][FAILED] - phpTravels.PhpKeys.navigateToCreateAdminPage: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-10-26 19:05:38 - [MESSAGE][WARNING] - Test object with id 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' does not exist
+
+2018-10-26 19:05:38 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-10-26 19:05:38 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\CreateAdminandLogin\\20181026_190520\\1540560938045.png]]
+
+2018-10-26 19:05:38 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+         <system-err><![CDATA[2018-10-26 19:05:37 - [TEST_CASE][FAILED] - Test Cases/CreateUser/AddAdmin: Test Cases/CreateUser/AddAdmin FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LoginAsCreatedAdmin" classname="Test Cases/Common/LoginAsCreatedAdmin" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-10-26 19:05:38 - [TEST_CASE][FAILED] - Test Cases/Common/LoginAsCreatedAdmin: Test Cases/Common/LoginAsCreatedAdmin FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-10-26 19:05:38 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails): Reading database data with query 'SELECT * FROM katalon_saranya_16_oct_18.users'
+
+2018-10-26 19:05:39 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(5, 1): null
+
+2018-10-26 19:05:39 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(2, 1): null
+
+2018-10-26 19:05:39 - [TEST_STEP][FAILED] - phpTravels.commonUtils.loginToPHPTravels: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-10-26 19:05:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-26 19:05:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-26 19:05:46 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-26 19:05:46 - [MESSAGE][WARNING] - Test object with id 'Object Repository/common/super_admin/Page_Administator Login/input_email' does not exist
+
+2018-10-26 19:05:46 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-10-26 19:05:46 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-26 19:05:46 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-10-26 19:05:46 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+         <system-err><![CDATA[2018-10-26 19:05:38 - [TEST_CASE][FAILED] - Test Cases/Common/LoginAsCreatedAdmin: Test Cases/Common/LoginAsCreatedAdmin FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateTour/BookTour" classname="Test Cases/CreateTour/BookTour" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-10-26 19:05:46 - [TEST_CASE][FAILED] - Test Cases/CreateTour/BookTour: Test Cases/CreateTour/BookTour FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-10-26 19:05:47 - [TEST_STEP][FAILED] - phpTravels.TourKeys.navigateToNewTour: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-10-26 19:05:47 - [MESSAGE][WARNING] - Test object with id 'Object Repository/create_Tour/Page_Tours Management/a_Tours' does not exist
+
+2018-10-26 19:05:47 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-10-26 19:05:47 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-26 19:05:47 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-10-26 19:05:47 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+         <system-err><![CDATA[2018-10-26 19:05:46 - [TEST_CASE][FAILED] - Test Cases/CreateTour/BookTour: Test Cases/CreateTour/BookTour FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-26 19:05:23 - [TEST_SUITE][INCOMPLETE] - CreateAdminandLogin: null]]></system-out>
+      <system-err><![CDATA[2018-10-26 19:05:23 - [TEST_SUITE][INCOMPLETE] - CreateAdminandLogin: null]]></system-err>
+   </testsuite>
+</testsuites>

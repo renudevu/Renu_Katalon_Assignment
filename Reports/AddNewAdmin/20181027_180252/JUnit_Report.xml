@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddNewAdmin" time="66" tests="2" failures="1" errors="0">
+   <testsuite name="AddNewAdmin" tests="2" failures="1" errors="0" time="66" timestamp="2018-10-27 18:02:55" hostname="Renu - Renu-PC" id="Test Suites/AddNewAdmin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\AddNewAdmin\\20181027_180252"/>
+         <property name="logFiles" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\AddNewAdmin\\20181027_180252\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\AddNewAdmin\\20181027_180252\\1540643641306.png"/>
+         <property name="hostName" value="Renu - Renu-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+         <property name="hostAddress" value="192.168.1.75"/>
+         <property name="sessionId" value="b1155965-d459-467d-adc6-e2d40ea94f34"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/NavigateToUrl" classname="Test Cases/Common/NavigateToUrl" status="PASSED">
+         <system-out><![CDATA[2018-10-27 18:02:55 - [TEST_CASE][PASSED] - Test Cases/Common/NavigateToUrl: Test Cases/Common/NavigateToUrl
+
+2018-10-27 18:02:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-27 18:03:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-27 18:03:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-27 18:03:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-27 18:03:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-27 18:03:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-27 18:03:13 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LoginAsAdmin" classname="Test Cases/Common/LoginAsAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-27 18:03:13 - [TEST_CASE][PASSED] - Test Cases/Common/LoginAsAdmin: Test Cases/Common/LoginAsAdmin
+
+2018-10-27 18:03:13 - [TEST_STEP][PASSED] - phpTravels.Common.Login: phpTravels.Common.Login is PASSED
+
+2018-10-27 18:03:14 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/login/input_email'
+
+2018-10-27 18:03:15 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/login/input_password'
+
+2018-10-27 18:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/common/login/button_Login' is clicked on
+
+2018-10-27 18:03:15 - [MESSAGE][PASSED] - phpTravels.Common.Login is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/AddAdmin" classname="Test Cases/User/AddAdmin" status="FAILED">
+         <failure type="FAILED" message="Unable to check object 'Object Repository/user/admin/fields/checkbox_all_edit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/admin/fields/checkbox_all_edit' located by 'By.xpath: .//*[contains(@class,'panel-heading')]//self::*[(text()='Edit')]//following-sibling::*//li[1]//div' not found)"/>
+         <system-out><![CDATA[2018-10-27 18:03:15 - [TEST_CASE][FAILED] - Test Cases/User/AddAdmin: Test Cases/User/AddAdmin FAILED because (of) Unable to check object 'Object Repository/user/admin/fields/checkbox_all_edit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/admin/fields/checkbox_all_edit' located by 'By.xpath: .//*[contains(@class,'panel-heading')]//self::*[(text()='Edit')]//following-sibling::*//li[1]//div' not found)
+
+2018-10-27 18:03:15 - [TEST_STEP][PASSED] - phpTravels.Admin.NavigateToAdminPage: phpTravels.Admin.NavigateToAdminPage is PASSED
+
+2018-10-27 18:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/dashboard/a_Accounts' is clicked on
+
+2018-10-27 18:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/dashboard/a_Admins' is clicked on
+
+2018-10-27 18:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/action/button_Add' is clicked on
+
+2018-10-27 18:03:25 - [MESSAGE][PASSED] - phpTravels.Admin.NavigateToAdminPage is PASSED
+
+2018-10-27 18:03:25 - [TEST_STEP][PASSED] - phpTravels.Admin.SetAdminDetails: phpTravels.Admin.SetAdminDetails is PASSED
+
+2018-10-27 18:03:26 - [MESSAGE][PASSED] - Text 'Renu' is set on object 'Object Repository/user/admin/fields/input_fname'
+
+2018-10-27 18:03:26 - [MESSAGE][PASSED] - Text 'Rahul' is set on object 'Object Repository/user/admin/fields/input_lname'
+
+2018-10-27 18:03:26 - [MESSAGE][PASSED] - Text 'tr@test.com' is set on object 'Object Repository/user/admin/fields/input_email'
+
+2018-10-27 18:03:26 - [MESSAGE][PASSED] - Text 'inapp2.0' is set on object 'Object Repository/user/admin/fields/input_password'
+
+2018-10-27 18:03:27 - [MESSAGE][PASSED] - Text '8891767706' is set on object 'Object Repository/user/admin/fields/input_mobile'
+
+2018-10-27 18:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country1' is clicked on
+
+2018-10-27 18:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country2' is clicked on
+
+2018-10-27 18:03:28 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/user/admin/fields/autocomplete_country2'
+
+2018-10-27 18:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country3' is clicked on
+
+2018-10-27 18:03:29 - [MESSAGE][PASSED] - Text 'Thannikattethu' is set on object 'Object Repository/user/admin/fields/input_address1'
+
+2018-10-27 18:03:30 - [MESSAGE][PASSED] - Text 'Kadapra-Mannar' is set on object 'Object Repository/user/admin/fields/input_address2'
+
+2018-10-27 18:03:30 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/user/admin/fields/select_status'
+
+2018-10-27 18:03:30 - [MESSAGE][PASSED] - phpTravels.Admin.SetAdminDetails is PASSED
+
+2018-10-27 18:03:30 - [TEST_STEP][FAILED] - phpTravels.Admin.ManageAccessDetails: Unable to check object 'Object Repository/user/admin/fields/checkbox_all_edit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/admin/fields/checkbox_all_edit' located by 'By.xpath: .//*[contains(@class,'panel-heading')]//self::*[(text()='Edit')]//following-sibling::*//li[1]//div' not found)
+
+2018-10-27 18:03:30 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-27 18:04:01 - [MESSAGE][FAILED] - Unable to check object 'Object Repository/user/admin/fields/checkbox_all_edit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/admin/fields/checkbox_all_edit' located by 'By.xpath: .//*[contains(@class,'panel-heading')]//self::*[(text()='Edit')]//following-sibling::*//li[1]//div' not found)
+[[ATTACHMENT|D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment_2\\Reports\\AddNewAdmin\\20181027_180252\\1540643641306.png]]
+
+2018-10-27 18:04:01 - [MESSAGE][FAILED] - Unable to check object 'Object Repository/user/admin/fields/checkbox_all_edit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/admin/fields/checkbox_all_edit' located by 'By.xpath: .//*[contains(@class,'panel-heading')]//self::*[(text()='Edit')]//following-sibling::*//li[1]//div' not found)]]></system-out>
+         <system-err><![CDATA[2018-10-27 18:03:15 - [TEST_CASE][FAILED] - Test Cases/User/AddAdmin: Test Cases/User/AddAdmin FAILED because (of) Unable to check object 'Object Repository/user/admin/fields/checkbox_all_edit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/admin/fields/checkbox_all_edit' located by 'By.xpath: .//*[contains(@class,'panel-heading')]//self::*[(text()='Edit')]//following-sibling::*//li[1]//div' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-27 18:02:55 - [TEST_SUITE][FAILED] - AddNewAdmin: Test Cases/User/AddAdmin FAILED because (of) Unable to check object 'Object Repository/user/admin/fields/checkbox_all_edit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/admin/fields/checkbox_all_edit' located by 'By.xpath: .//*[contains(@class,'panel-heading')]//self::*[(text()='Edit')]//following-sibling::*//li[1]//div' not found)]]></system-out>
+      <system-err><![CDATA[2018-10-27 18:02:55 - [TEST_SUITE][FAILED] - AddNewAdmin: Test Cases/User/AddAdmin FAILED because (of) Unable to check object 'Object Repository/user/admin/fields/checkbox_all_edit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/admin/fields/checkbox_all_edit' located by 'By.xpath: .//*[contains(@class,'panel-heading')]//self::*[(text()='Edit')]//following-sibling::*//li[1]//div' not found)]]></system-err>
+   </testsuite>
+</testsuites>
