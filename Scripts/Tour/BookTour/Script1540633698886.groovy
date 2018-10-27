@@ -20,13 +20,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'phpTravels.TourKeys.navigateToNewTour'()
-
-CustomKeywords.'phpTravels.TourKeys.provideTourDetails'()
-
-CustomKeywords.'phpTravels.TourKeys.provideTourInclusions'()
-
-CustomKeywords.'phpTravels.TourKeys.provideTourExclusions'()
-
-CustomKeywords.'phpTravels.TourKeys.SaveTour'()
+CustomKeywords.'phpTravels.Tour.NavigateToTourPage'()
+CustomKeywords.'phpTravels.Tour.SetTourDetails'()
+CustomKeywords.'phpTravels.Tour.SetTourInclusions'()
+CustomKeywords.'phpTravels.Tour.SetTourExclusions'()
+CustomKeywords.'phpTravels.Tour.SaveTour'()
 

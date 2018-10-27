@@ -4,7 +4,7 @@
    <name>AddNewAdmin</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-27T19:27:26</lastRun>
+   <lastRun>2018-10-28T00:32:39</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

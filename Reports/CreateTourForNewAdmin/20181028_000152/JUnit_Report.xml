@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateTourForNewAdmin" time="35" tests="2" failures="2" errors="0">
+   <testsuite name="CreateTourForNewAdmin" tests="2" failures="2" errors="0" time="35" timestamp="2018-10-28 00:01:55" hostname="Renu - Renu-PC" id="Test Suites/CreateTourForNewAdmin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\CreateTourForNewAdmin\\20181028_000152"/>
+         <property name="logFiles" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\CreateTourForNewAdmin\\20181028_000152\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Renu - Renu-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+         <property name="hostAddress" value="192.168.1.75"/>
+         <property name="sessionId" value="c9611322-c87a-4a20-aaa0-e7697a88f2cc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/NavigateToUrl" classname="Test Cases/Common/NavigateToUrl" status="PASSED">
+         <system-out><![CDATA[2018-10-28 00:01:56 - [TEST_CASE][PASSED] - Test Cases/Common/NavigateToUrl: Test Cases/Common/NavigateToUrl
+
+2018-10-28 00:01:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-28 00:02:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-28 00:02:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-28 00:02:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-28 00:02:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-28 00:02:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-28 00:02:15 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LoginFromDatabase" classname="Test Cases/Common/LoginFromDatabase" status="PASSED">
+         <system-out><![CDATA[2018-10-28 00:02:15 - [TEST_CASE][PASSED] - Test Cases/Common/LoginFromDatabase: Test Cases/Common/LoginFromDatabase
+
+2018-10-28 00:02:16 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(userDetail): Reading database data with query 'SELECT * FROM katalon_renu_16_10_2018.user'
+
+2018-10-28 00:02:16 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(Email.ordinal(), userIndex): null
+
+2018-10-28 00:02:16 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(Password.ordinal(), userIndex): null
+
+2018-10-28 00:02:16 - [TEST_STEP][PASSED] - phpTravels.Common.Login: phpTravels.Common.Login is PASSED
+
+2018-10-28 00:02:17 - [MESSAGE][PASSED] - Text 'tr@test.com' is set on object 'Object Repository/common/login/input_email'
+
+2018-10-28 00:02:18 - [MESSAGE][PASSED] - Text 'inapp2.0' is set on object 'Object Repository/common/login/input_password'
+
+2018-10-28 00:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/common/login/button_Login' is clicked on
+
+2018-10-28 00:02:18 - [MESSAGE][PASSED] - phpTravels.Common.Login is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tour/BookTour" classname="Test Cases/Tour/BookTour" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/tour/navigation/a_tour' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4116, moz:profile: C:\Users\Renu\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c9611322-c87a-4a20-aaa0-e7697a88f2cc
+*** Element info: {Using=xpath, value=//a[@href = '#Tours' and (text() = 'Tours ' or . = 'Tours ')]})"/>
+         <system-out><![CDATA[2018-10-28 00:02:18 - [TEST_CASE][FAILED] - Test Cases/Tour/BookTour: Test Cases/Tour/BookTour FAILED because (of) Unable to click on object 'Object Repository/tour/navigation/a_tour' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4116, moz:profile: C:\Users\Renu\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c9611322-c87a-4a20-aaa0-e7697a88f2cc
+*** Element info: {Using=xpath, value=//a[@href = '#Tours' and (text() = 'Tours ' or . = 'Tours ')]})
+
+2018-10-28 00:02:18 - [TEST_STEP][FAILED] - phpTravels.Tour.NavigateToTourPage: Unable to click on object 'Object Repository/tour/navigation/a_tour' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4116, moz:profile: C:\Users\Renu\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c9611322-c87a-4a20-aaa0-e7697a88f2cc
+*** Element info: {Using=xpath, value=//a[@href = '#Tours' and (text() = 'Tours ' or . = 'Tours ')]})
+
+2018-10-28 00:02:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-28 00:02:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/tour/navigation/a_tour' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4116, moz:profile: C:\Users\Renu\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c9611322-c87a-4a20-aaa0-e7697a88f2cc
+*** Element info: {Using=xpath, value=//a[@href = '#Tours' and (text() = 'Tours ' or . = 'Tours ')]})
+
+2018-10-28 00:02:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/tour/navigation/a_tour' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4116, moz:profile: C:\Users\Renu\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c9611322-c87a-4a20-aaa0-e7697a88f2cc
+*** Element info: {Using=xpath, value=//a[@href = '#Tours' and (text() = 'Tours ' or . = 'Tours ')]})]]></system-out>
+         <system-err><![CDATA[2018-10-28 00:02:18 - [TEST_CASE][FAILED] - Test Cases/Tour/BookTour: Test Cases/Tour/BookTour FAILED because (of) Unable to click on object 'Object Repository/tour/navigation/a_tour' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4116, moz:profile: C:\Users\Renu\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c9611322-c87a-4a20-aaa0-e7697a88f2cc
+*** Element info: {Using=xpath, value=//a[@href = '#Tours' and (text() = 'Tours ' or . = 'Tours ')]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LogOut" classname="Test Cases/Common/LogOut" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4116, moz:profile: C:\Users\Renu\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c9611322-c87a-4a20-aaa0-e7697a88f2cc
+*** Element info: {Using=xpath, value=//A[@class='btn btn-danger btn-sm btn-block'][text()='Log Out']})"/>
+         <system-out><![CDATA[2018-10-28 00:02:30 - [TEST_CASE][FAILED] - Test Cases/Common/LogOut: Test Cases/Common/LogOut FAILED because (of) Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4116, moz:profile: C:\Users\Renu\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c9611322-c87a-4a20-aaa0-e7697a88f2cc
+*** Element info: {Using=xpath, value=//A[@class='btn btn-danger btn-sm btn-block'][text()='Log Out']})
+
+2018-10-28 00:02:30 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4116, moz:profile: C:\Users\Renu\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c9611322-c87a-4a20-aaa0-e7697a88f2cc
+*** Element info: {Using=xpath, value=//A[@class='btn btn-danger btn-sm btn-block'][text()='Log Out']})
+
+2018-10-28 00:02:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-28 00:02:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4116, moz:profile: C:\Users\Renu\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c9611322-c87a-4a20-aaa0-e7697a88f2cc
+*** Element info: {Using=xpath, value=//A[@class='btn btn-danger btn-sm btn-block'][text()='Log Out']})]]></system-out>
+         <system-err><![CDATA[2018-10-28 00:02:30 - [TEST_CASE][FAILED] - Test Cases/Common/LogOut: Test Cases/Common/LogOut FAILED because (of) Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4116, moz:profile: C:\Users\Renu\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c9611322-c87a-4a20-aaa0-e7697a88f2cc
+*** Element info: {Using=xpath, value=//A[@class='btn btn-danger btn-sm btn-block'][text()='Log Out']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-28 00:01:55 - [TEST_SUITE][INCOMPLETE] - CreateTourForNewAdmin: null]]></system-out>
+      <system-err><![CDATA[2018-10-28 00:01:55 - [TEST_SUITE][INCOMPLETE] - CreateTourForNewAdmin: null]]></system-err>
+   </testsuite>
+</testsuites>

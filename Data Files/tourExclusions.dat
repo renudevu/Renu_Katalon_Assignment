@@ -24,12 +24,12 @@
    <data>Alcoholic+beverages 0</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>ExcludingAreas</name>
+      <name>areas</name>
       <size>14</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
-      <name>selectTrigger</name>
+      <name>selected</name>
       <size>14</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

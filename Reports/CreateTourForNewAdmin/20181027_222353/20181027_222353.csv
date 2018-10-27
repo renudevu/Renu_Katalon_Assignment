@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CreateTourForNewAdmin,Firefox 62.0,,2018-10-27 22:23:57,2018-10-27 22:24:41,44.174s,ERROR
+,,,,,,
+Test Cases/Common/NavigateToUrl,Firefox 62.0,,2018-10-27 22:23:57,2018-10-27 22:24:16,18.788s,PASSED
+openBrowser,Firefox 62.0,,2018-10-27 22:23:58,2018-10-27 22:24:07,8.937s,PASSED
+openBrowser,Firefox 62.0,,2018-10-27 22:24:07,2018-10-27 22:24:14,6.824s,PASSED
+navigateToUrl,Firefox 62.0,,2018-10-27 22:24:14,2018-10-27 22:24:16,2.387s,PASSED
+,,,,,,
+Test Cases/Common/LoginFromDatabase,Firefox 62.0,,2018-10-27 22:24:16,2018-10-27 22:24:19,2.732s,PASSED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(userDetail),Firefox 62.0,,2018-10-27 22:24:17,2018-10-27 22:24:18,0.943s,PASSED
+"Statement - userName = dbdata.getValue(Email.ordinal(), userIndex)",Firefox 62.0,,2018-10-27 22:24:18,2018-10-27 22:24:18,0.076s,PASSED
+"Statement - password = dbdata.getValue(Password.ordinal(), userIndex)",Firefox 62.0,,2018-10-27 22:24:18,2018-10-27 22:24:18,0.027s,PASSED
+phpTravels.Common.Login,Firefox 62.0,,2018-10-27 22:24:18,2018-10-27 22:24:19,1.172s,PASSED
+,,,,,,
+Test Cases/Tour/BookTour,Firefox 62.0,,2018-10-27 22:24:19,2018-10-27 22:24:38,19.387s,ERROR
+phpTravels.Tour.NavigateToTourPage,Firefox 62.0,,2018-10-27 22:24:19,2018-10-27 22:24:31,11.936s,PASSED
+phpTravels.Tour.SetTourDetails,Firefox 62.0,,2018-10-27 22:24:31,2018-10-27 22:24:37,5.642s,PASSED
+phpTravels.Tour.SetTourInclusions,Firefox 62.0,,2018-10-27 22:24:37,2018-10-27 22:24:38,1.391s,ERROR
+,,,,,,
+Test Cases/Common/LogOut,Firefox 62.0,,2018-10-27 22:24:38,2018-10-27 22:24:40,1.806s,PASSED
+click,Firefox 62.0,,2018-10-27 22:24:39,2018-10-27 22:24:40,1.513s,PASSED

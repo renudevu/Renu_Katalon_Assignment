@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateTourForNewAdmin" time="103" tests="2" failures="2" errors="0">
+   <testsuite name="CreateTourForNewAdmin" tests="2" failures="2" errors="0" time="103" timestamp="2018-10-27 22:50:43" hostname="Renu - Renu-PC" id="Test Suites/CreateTourForNewAdmin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\CreateTourForNewAdmin\\20181027_225040"/>
+         <property name="logFiles" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\CreateTourForNewAdmin\\20181027_225040\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\CreateTourForNewAdmin\\20181027_225040\\1540660914921.png, D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\CreateTourForNewAdmin\\20181027_225040\\1540660946224.png"/>
+         <property name="hostName" value="Renu - Renu-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+         <property name="hostAddress" value="192.168.1.75"/>
+         <property name="sessionId" value="2803798f-ddc1-4f0e-8518-d19defb3a08f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/NavigateToUrl" classname="Test Cases/Common/NavigateToUrl" status="PASSED">
+         <system-out><![CDATA[2018-10-27 22:50:44 - [TEST_CASE][PASSED] - Test Cases/Common/NavigateToUrl: Test Cases/Common/NavigateToUrl
+
+2018-10-27 22:50:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-27 22:50:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-27 22:50:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-27 22:50:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-27 22:51:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-27 22:51:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-27 22:51:03 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LoginFromDatabase" classname="Test Cases/Common/LoginFromDatabase" status="PASSED">
+         <system-out><![CDATA[2018-10-27 22:51:03 - [TEST_CASE][PASSED] - Test Cases/Common/LoginFromDatabase: Test Cases/Common/LoginFromDatabase
+
+2018-10-27 22:51:04 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(userDetail): Reading database data with query 'SELECT * FROM katalon_renu_16_10_2018.user'
+
+2018-10-27 22:51:04 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(Email.ordinal(), userIndex): null
+
+2018-10-27 22:51:05 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(Password.ordinal(), userIndex): null
+
+2018-10-27 22:51:05 - [TEST_STEP][PASSED] - phpTravels.Common.Login: phpTravels.Common.Login is PASSED
+
+2018-10-27 22:51:06 - [MESSAGE][PASSED] - Text 'tr@test.com' is set on object 'Object Repository/common/login/input_email'
+
+2018-10-27 22:51:06 - [MESSAGE][PASSED] - Text 'inapp2.0' is set on object 'Object Repository/common/login/input_password'
+
+2018-10-27 22:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/common/login/button_Login' is clicked on
+
+2018-10-27 22:51:06 - [MESSAGE][PASSED] - phpTravels.Common.Login is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tour/BookTour" classname="Test Cases/Tour/BookTour" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '2' of object 'Object Repository/tour/Page_Add Tour/input_maxadult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/Page_Add Tour/input_maxadult' located by 'By.xpath: //input[@type = 'text' and @name = 'maxadult']' not found)"/>
+         <system-out><![CDATA[2018-10-27 22:51:06 - [TEST_CASE][FAILED] - Test Cases/Tour/BookTour: Test Cases/Tour/BookTour FAILED because (of) Unable to set text '2' of object 'Object Repository/tour/Page_Add Tour/input_maxadult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/Page_Add Tour/input_maxadult' located by 'By.xpath: //input[@type = 'text' and @name = 'maxadult']' not found)
+
+2018-10-27 22:51:07 - [TEST_STEP][PASSED] - phpTravels.Tour.NavigateToTourPage: phpTravels.Tour.NavigateToTourPage is PASSED
+
+2018-10-27 22:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/Page_Tours Management/a_Tours' is clicked on
+
+2018-10-27 22:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/Page_Tours Management/a_Add New' is clicked on
+
+2018-10-27 22:51:22 - [MESSAGE][PASSED] - phpTravels.Tour.NavigateToTourPage is PASSED
+
+2018-10-27 22:51:22 - [TEST_STEP][FAILED] - phpTravels.Tour.SetTourDetails: Unable to set text '2' of object 'Object Repository/tour/Page_Add Tour/input_maxadult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/Page_Add Tour/input_maxadult' located by 'By.xpath: //input[@type = 'text' and @name = 'maxadult']' not found)
+
+2018-10-27 22:51:23 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/tour/Page_Add Tour/select_TourStatus'  using regular expression
+
+2018-10-27 22:51:23 - [MESSAGE][PASSED] - Text 'Alappuzha Tour' is set on object 'Object Repository/tour/Page_Add Tour/input_tourname'
+
+2018-10-27 22:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/Page_Add Tour/iframeBody' is clicked on
+
+2018-10-27 22:51:24 - [MESSAGE][PASSED] - Text 'Vacation Holiday Trip' is set on object 'Object Repository/tour/Page_Add Tour/iframeBody'
+
+2018-10-27 22:51:54 - [MESSAGE][FAILED] - Unable to set text '2' of object 'Object Repository/tour/Page_Add Tour/input_maxadult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/Page_Add Tour/input_maxadult' located by 'By.xpath: //input[@type = 'text' and @name = 'maxadult']' not found)
+[[ATTACHMENT|D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\CreateTourForNewAdmin\\20181027_225040\\1540660914921.png]]
+
+2018-10-27 22:51:54 - [MESSAGE][FAILED] - Unable to set text '2' of object 'Object Repository/tour/Page_Add Tour/input_maxadult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/Page_Add Tour/input_maxadult' located by 'By.xpath: //input[@type = 'text' and @name = 'maxadult']' not found)]]></system-out>
+         <system-err><![CDATA[2018-10-27 22:51:06 - [TEST_CASE][FAILED] - Test Cases/Tour/BookTour: Test Cases/Tour/BookTour FAILED because (of) Unable to set text '2' of object 'Object Repository/tour/Page_Add Tour/input_maxadult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/Page_Add Tour/input_maxadult' located by 'By.xpath: //input[@type = 'text' and @name = 'maxadult']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LogOut" classname="Test Cases/Common/LogOut" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/common/logout/button_Logout' located by 'By.xpath: //A[@class='btn btn-danger btn-sm btn-block'][text()='Log Out']' not found)"/>
+         <system-out><![CDATA[2018-10-27 22:51:54 - [TEST_CASE][FAILED] - Test Cases/Common/LogOut: Test Cases/Common/LogOut FAILED because (of) Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/common/logout/button_Logout' located by 'By.xpath: //A[@class='btn btn-danger btn-sm btn-block'][text()='Log Out']' not found)
+
+2018-10-27 22:51:55 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/common/logout/button_Logout' located by 'By.xpath: //A[@class='btn btn-danger btn-sm btn-block'][text()='Log Out']' not found)
+
+2018-10-27 22:52:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/common/logout/button_Logout' located by 'By.xpath: //A[@class='btn btn-danger btn-sm btn-block'][text()='Log Out']' not found)
+[[ATTACHMENT|D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\CreateTourForNewAdmin\\20181027_225040\\1540660946224.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-27 22:51:54 - [TEST_CASE][FAILED] - Test Cases/Common/LogOut: Test Cases/Common/LogOut FAILED because (of) Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/common/logout/button_Logout' located by 'By.xpath: //A[@class='btn btn-danger btn-sm btn-block'][text()='Log Out']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-27 22:50:43 - [TEST_SUITE][FAILED] - CreateTourForNewAdmin: Test Cases/Tour/BookTour FAILED because (of) Unable to set text '2' of object 'Object Repository/tour/Page_Add Tour/input_maxadult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/Page_Add Tour/input_maxadult' located by 'By.xpath: //input[@type = 'text' and @name = 'maxadult']' not found)]]></system-out>
+      <system-err><![CDATA[2018-10-27 22:50:43 - [TEST_SUITE][FAILED] - CreateTourForNewAdmin: Test Cases/Tour/BookTour FAILED because (of) Unable to set text '2' of object 'Object Repository/tour/Page_Add Tour/input_maxadult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/Page_Add Tour/input_maxadult' located by 'By.xpath: //input[@type = 'text' and @name = 'maxadult']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

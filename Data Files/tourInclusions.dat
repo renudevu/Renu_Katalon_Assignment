@@ -55,12 +55,12 @@
    <data>null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>inclusionArea</name>
+      <name>areas</name>
       <size>45</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
-      <name>select_Trigger</name>
+      <name>selected</name>
       <size>45</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

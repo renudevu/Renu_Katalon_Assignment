@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddNewAdmin" time="49" tests="4" failures="0" errors="0">
+   <testsuite name="AddNewAdmin" tests="4" failures="0" errors="0" time="49" timestamp="2018-10-28 00:18:42" hostname="Renu - Renu-PC" id="Test Suites/AddNewAdmin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\AddNewAdmin\\20181028_001839"/>
+         <property name="logFiles" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\AddNewAdmin\\20181028_001839\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Renu - Renu-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+         <property name="hostAddress" value="192.168.1.75"/>
+         <property name="sessionId" value="2098237f-32f5-44cd-93a9-e875a7b69f9b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/NavigateToUrl" classname="Test Cases/Common/NavigateToUrl" status="PASSED">
+         <system-out><![CDATA[2018-10-28 00:18:42 - [TEST_CASE][PASSED] - Test Cases/Common/NavigateToUrl: Test Cases/Common/NavigateToUrl
+
+2018-10-28 00:18:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-28 00:18:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-28 00:18:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-28 00:18:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-28 00:19:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-28 00:19:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-28 00:19:02 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/Login" classname="Test Cases/Common/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-28 00:19:02 - [TEST_CASE][PASSED] - Test Cases/Common/Login: Test Cases/Common/Login
+
+2018-10-28 00:19:02 - [TEST_STEP][PASSED] - phpTravels.Common.Login: phpTravels.Common.Login is PASSED
+
+2018-10-28 00:19:04 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/login/input_email'
+
+2018-10-28 00:19:04 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/login/input_password'
+
+2018-10-28 00:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/common/login/button_Login' is clicked on
+
+2018-10-28 00:19:05 - [MESSAGE][PASSED] - phpTravels.Common.Login is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/AddAdmin" classname="Test Cases/User/AddAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-28 00:19:05 - [TEST_CASE][PASSED] - Test Cases/User/AddAdmin: Test Cases/User/AddAdmin
+
+2018-10-28 00:19:05 - [TEST_STEP][PASSED] - phpTravels.Admin.NavigateToAdminPage: phpTravels.Admin.NavigateToAdminPage is PASSED
+
+2018-10-28 00:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/dashboard/a_Account' is clicked on
+
+2018-10-28 00:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/dashboard/a_Admin' is clicked on
+
+2018-10-28 00:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/action/button_Add' is clicked on
+
+2018-10-28 00:19:15 - [MESSAGE][PASSED] - phpTravels.Admin.NavigateToAdminPage is PASSED
+
+2018-10-28 00:19:15 - [TEST_STEP][PASSED] - phpTravels.Admin.SetAdminDetails: phpTravels.Admin.SetAdminDetails is PASSED
+
+2018-10-28 00:19:16 - [MESSAGE][PASSED] - Text 'Renu' is set on object 'Object Repository/user/admin/fields/input_first_name'
+
+2018-10-28 00:19:17 - [MESSAGE][PASSED] - Text 'Rahul' is set on object 'Object Repository/user/admin/fields/input_last_name'
+
+2018-10-28 00:19:17 - [MESSAGE][PASSED] - Text 'tr@test.com' is set on object 'Object Repository/user/admin/fields/input_email_address'
+
+2018-10-28 00:19:17 - [MESSAGE][PASSED] - Text 'inapp2.0' is set on object 'Object Repository/user/admin/fields/input_password'
+
+2018-10-28 00:19:17 - [MESSAGE][PASSED] - Text '8891767706' is set on object 'Object Repository/user/admin/fields/input_mobile_number'
+
+2018-10-28 00:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country_control' is clicked on
+
+2018-10-28 00:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country_search' is clicked on
+
+2018-10-28 00:19:19 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/user/admin/fields/autocomplete_country_search'
+
+2018-10-28 00:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country_select' is clicked on
+
+2018-10-28 00:19:20 - [MESSAGE][PASSED] - Text 'Thannikattethu' is set on object 'Object Repository/user/admin/fields/input_address_line1'
+
+2018-10-28 00:19:20 - [MESSAGE][PASSED] - Text 'Kadapra-Mannar' is set on object 'Object Repository/user/admin/fields/input_address_line2'
+
+2018-10-28 00:19:20 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/user/admin/fields/select_status'
+
+2018-10-28 00:19:20 - [MESSAGE][PASSED] - phpTravels.Admin.SetAdminDetails is PASSED
+
+2018-10-28 00:19:20 - [TEST_STEP][PASSED] - phpTravels.Admin.ManageAccessDetails: phpTravels.Admin.ManageAccessDetails is PASSED
+
+2018-10-28 00:19:21 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-28 00:19:21 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-28 00:19:21 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-28 00:19:22 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-28 00:19:22 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-28 00:19:22 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-28 00:19:23 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-28 00:19:23 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-28 00:19:23 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-28 00:19:24 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-28 00:19:24 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-28 00:19:24 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-28 00:19:24 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-28 00:19:25 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-28 00:19:25 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-28 00:19:25 - [MESSAGE][PASSED] - phpTravels.Admin.ManageAccessDetails is PASSED
+
+2018-10-28 00:19:25 - [TEST_STEP][PASSED] - phpTravels.Admin.SaveDetails: phpTravels.Admin.SaveDetails is PASSED
+
+2018-10-28 00:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/action/button_Submit' is clicked on
+
+2018-10-28 00:19:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-28 00:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/created_Admin' is present
+
+2018-10-28 00:19:28 - [MESSAGE][PASSED] - phpTravels.Admin.SaveDetails is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LogOut" classname="Test Cases/Common/LogOut" status="PASSED">
+         <system-out><![CDATA[2018-10-28 00:19:28 - [TEST_CASE][PASSED] - Test Cases/Common/LogOut: Test Cases/Common/LogOut
+
+2018-10-28 00:19:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/common/logout/button_Logout' is clicked on
+
+2018-10-28 00:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/common/logout/button_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-28 00:18:42 - [TEST_SUITE][PASSED] - AddNewAdmin: Test Cases/Common/LogOut]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
