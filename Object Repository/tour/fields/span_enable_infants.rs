@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id = 'infant']</value>
+         <value>(//INPUT[@type='text'])[8]/../../..//SPAN</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

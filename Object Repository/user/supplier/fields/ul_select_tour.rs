@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//UL[@class='select2-choices'])[2]</value>
+         <value>//LABEL[@class='required'][text()='Assign Tours']/..//UL[@class='select2-choices']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -84,7 +84,6 @@ class Tour {
 		WebUI.click(findTestObject('tour/fields/span_enable_child'))
 		WebUI.setText(findTestObject('tour/fields/input_child_count'), data.internallyGetValue(Travel.ChildCount.ordinal(), tourIndex))
 		WebUI.setText(findTestObject('tour/fields/input_child_price'), data.internallyGetValue(Travel.ChildPrice.ordinal(), tourIndex))
-		WebUI.waitForPageLoad(50, FailureHandling.STOP_ON_FAILURE)
 		//WebUI.click(findTestObject('tour/fields/span_enable_infants'))
 		//WebUI.setText(findTestObject('tour/fields/input_infant_count'), data.internallyGetValue(Travel.InfantCount.ordinal(), tourIndex))
 		//WebUI.setText(findTestObject('tour/fields/input_infant_price'), data.internallyGetValue(Travel.InfantPrice.ordinal(), tourIndex))

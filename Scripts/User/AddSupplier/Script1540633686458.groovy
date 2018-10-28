@@ -37,17 +37,16 @@ WebUI.setText(findTestObject('user/supplier/fields/input_address_line1'), Addres
 WebUI.setText(findTestObject('user/supplier/fields/input_address_line2'), AddressLine2)
 WebUI.selectOptionByValue(findTestObject('user/supplier/fields/select_apply_for'), SupplierFor, true)
 WebUI.setText(findTestObject('user/supplier/fields/input_item_name'), ItemName)
-/*
-WebUI.click(findTestObject('user/supplier/fields/ul_select_hotel'))
-WebUI.setText(findTestObject('user/supplier/fields/input_select_hotel'), Hotel)
-WebUI.sendKeys(findTestObject('user/supplier/fields/input_select_hotel'), Keys.chord(Keys.TAB))
-WebUI.click(findTestObject('user/supplier/fields/ul_select_tour'))
-WebUI.setText(findTestObject('user/supplier/fields/input_select_tour'), Tour)
-WebUI.sendKeys(findTestObject('user/supplier/fields/input_select_tour'), Keys.chord(Keys.TAB))
-WebUI.click(findTestObject('user/supplier/fields/ul_select_car'))
-WebUI.setText(findTestObject('user/supplier/fields/input_select_car'), Car)
-WebUI.sendKeys(findTestObject('user/supplier/fields/input_select_car'), Keys.chord(Keys.TAB))
-*/
+//WebUI.click(findTestObject('user/supplier/fields/ul_select_hotel'))
+//WebUI.setText(findTestObject('user/supplier/fields/input_select_hotel'), Hotel)
+//WebUI.sendKeys(findTestObject('user/supplier/fields/input_select_hotel'), Keys.chord(Keys.TAB))
+//WebUI.click(findTestObject('user/supplier/fields/ul_select_tour'))
+//WebUI.setText(findTestObject('user/supplier/fields/input_select_tour'), Tour)
+//WebUI.sendKeys(findTestObject('user/supplier/fields/input_select_tour'), Keys.chord(Keys.TAB))
+//WebUI.click(findTestObject('user/supplier/fields/ul_select_car'))
+//WebUI.setText(findTestObject('user/supplier/fields/input_select_car'), Car)
+//WebUI.sendKeys(findTestObject('user/supplier/fields/input_select_car'), Keys.chord(Keys.TAB))
+
 for(int i=1;i<=5;i++) {
 	if(CanAdd=='1'){
 		WebUI.check(findTestObject('user/supplier/fields/checkbox_all_add',[('value') : i]))
