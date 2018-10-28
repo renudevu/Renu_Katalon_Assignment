@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_county_select</name>
+   <tag></tag>
+   <elementGuidId>c29afaaa-5aab-4bd6-a5bd-563e4dbc2c7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//ul/li/div/span[contains(text(),&quot;Beatric&quot;)]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//DIV[@class='select2-result-label'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//ul/li/div/span[contains(text(),&quot;Beatric&quot;)]</value>
+   </webElementProperties>
+</WebElementEntity>

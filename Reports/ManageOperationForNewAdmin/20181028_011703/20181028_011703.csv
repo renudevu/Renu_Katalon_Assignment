@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ManageOperationForNewAdmin,Firefox 62.0,,2018-10-28 01:17:06,2018-10-28 01:18:51,1m - 44.459s,FAILED
+,,,,,,
+Test Cases/Common/NavigateToUrl,Firefox 62.0,,2018-10-28 01:17:07,2018-10-28 01:17:27,19.571s,PASSED
+openBrowser,Firefox 62.0,,2018-10-28 01:17:08,2018-10-28 01:17:17,8.845s,PASSED
+openBrowser,Firefox 62.0,,2018-10-28 01:17:17,2018-10-28 01:17:24,7.500s,PASSED
+navigateToUrl,Firefox 62.0,,2018-10-28 01:17:24,2018-10-28 01:17:27,2.562s,PASSED
+,,,,,,
+Test Cases/Common/LoginFromDatabase,Firefox 62.0,,2018-10-28 01:17:27,2018-10-28 01:17:29,2.377s,PASSED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(userDetail),Firefox 62.0,,2018-10-28 01:17:27,2018-10-28 01:17:28,0.863s,PASSED
+"Statement - userName = dbdata.getValue(Email.ordinal(), userIndex)",Firefox 62.0,,2018-10-28 01:17:28,2018-10-28 01:17:28,0.071s,PASSED
+"Statement - password = dbdata.getValue(Password.ordinal(), userIndex)",Firefox 62.0,,2018-10-28 01:17:28,2018-10-28 01:17:28,0.001s,PASSED
+phpTravels.Common.Login,Firefox 62.0,,2018-10-28 01:17:28,2018-10-28 01:17:29,1.060s,PASSED
+,,,,,,
+Test Cases/Tour/BookTour,Firefox 62.0,,2018-10-28 01:17:29,2018-10-28 01:18:09,39.796s,PASSED
+phpTravels.Tour.NavigateToTourPage,Firefox 62.0,,2018-10-28 01:17:30,2018-10-28 01:17:44,13.975s,PASSED
+phpTravels.Tour.SetTourDetails,Firefox 62.0,,2018-10-28 01:17:44,2018-10-28 01:17:52,8.673s,PASSED
+phpTravels.Tour.SetTourInclusions,Firefox 62.0,,2018-10-28 01:17:52,2018-10-28 01:18:03,10.713s,PASSED
+phpTravels.Tour.SetTourExclusions,Firefox 62.0,,2018-10-28 01:18:03,2018-10-28 01:18:06,2.657s,PASSED
+phpTravels.Tour.SaveTour,Firefox 62.0,,2018-10-28 01:18:06,2018-10-28 01:18:09,3.298s,PASSED
+,,,,,,
+Test Cases/User/AddSupplier,Firefox 62.0,,2018-10-28 01:18:09,2018-10-28 01:18:48,39.172s,FAILED
+phpTravels.Supplier.NavigateToSupplierPage,Firefox 62.0,,2018-10-28 01:18:10,2018-10-28 01:18:16,6.171s,PASSED
+phpTravels.Supplier.AddSupplierDetails,Firefox 62.0,,2018-10-28 01:18:16,2018-10-28 01:18:48,32.280s,FAILED
+,,,,,,
+Test Cases/Common/LogOut,Firefox 62.0,,2018-10-28 01:18:48,2018-10-28 01:18:50,1.972s,PASSED
+click,Firefox 62.0,,2018-10-28 01:18:48,2018-10-28 01:18:50,1.684s,PASSED

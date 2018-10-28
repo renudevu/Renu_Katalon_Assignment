@@ -106,8 +106,7 @@ class Tour {
 		WebUI.click(findTestObject('tour/fields/a_inclusion'))
 		WebUI.waitForPageLoad(20, FailureHandling.STOP_ON_FAILURE)
 		for (int i=4; i<=45;i++) {
-			String selectTrigger=data.internallyGetValue("selected",i-4)
-			if(selectTrigger.intern()!='1'){
+			if(data.internallyGetValue("selected",i-4).intern()!='1'){
 				WebUI.click(findTestObject('tour/fields/checkbox_inclusion', [('value') : i ]))
 			}
 		}
@@ -119,8 +118,7 @@ class Tour {
 		WebUI.click(findTestObject('tour/fields/a_exclusion'))
 		WebUI.waitForPageLoad(20, FailureHandling.STOP_ON_FAILURE)
 		for (int i=4; i<=17;i++) {
-			String selectTrigger=data.internallyGetValue("selected",i-4)
-			if(selectTrigger.intern()!='1'){
+			if(data.internallyGetValue("selected",i-4).intern()!='1'){
 				WebUI.click(findTestObject('tour/fields/checkbox_exclusion', [('value') : i ]))
 			}
 		}

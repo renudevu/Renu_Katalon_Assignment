@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_all_delete</name>
+   <tag></tag>
+   <elementGuidId>9db6ae24-e861-43e4-a961-4b322e067a00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[contains(@class,'panel-heading')]//self::*[(text()='Remove')]//following-sibling::*//li[${value}]//div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[contains(@class,'panel-heading')]//self::*[(text()='Remove')]//following-sibling::*//li[${value}]//div</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CreateTourForNewAdmin,,,2018-10-28 00:40:50,2018-10-28 00:41:07,16.772s,FAILED
+,,,,,,
+Test Cases/Common/NavigateToUrl,,,2018-10-28 00:40:51,2018-10-28 00:41:04,13.270s,FAILED
+openBrowser,,,2018-10-28 00:40:52,2018-10-28 00:41:04,12.261s,PASSED
+openBrowser,,,2018-10-28 00:41:04,2018-10-28 00:41:04,0.507s,FAILED
+,,,,,,
+Test Cases/Common/LoginFromDatabase,,,2018-10-28 00:41:04,2018-10-28 00:41:06,1.149s,FAILED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(userDetail),,,2018-10-28 00:41:05,2018-10-28 00:41:05,0.750s,PASSED
+"Statement - userName = dbdata.getValue(Email.ordinal(), userIndex)",,,2018-10-28 00:41:05,2018-10-28 00:41:05,0.052s,PASSED
+"Statement - password = dbdata.getValue(Password.ordinal(), userIndex)",,,2018-10-28 00:41:05,2018-10-28 00:41:05,0.001s,PASSED
+phpTravels.Common.Login,,,2018-10-28 00:41:05,2018-10-28 00:41:06,0.077s,FAILED
+,,,,,,
+Test Cases/Tour/BookTour,,,2018-10-28 00:41:06,2018-10-28 00:41:06,0.749s,FAILED
+phpTravels.Tour.NavigateToTourPage,,,2018-10-28 00:41:06,2018-10-28 00:41:06,0.044s,FAILED
+,,,,,,
+Test Cases/Common/LogOut,,,2018-10-28 00:41:06,2018-10-28 00:41:07,0.322s,FAILED
+click,,,2018-10-28 00:41:07,2018-10-28 00:41:07,0.022s,FAILED

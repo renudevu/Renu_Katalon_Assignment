@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ManageOperationForNewAdmin,Firefox 62.0,,2018-10-28 07:33:21,2018-10-28 07:35:03,1m - 42.222s,FAILED
+,,,,,,
+Test Cases/Common/NavigateToUrl,Firefox 62.0,,2018-10-28 07:33:22,2018-10-28 07:33:42,19.628s,PASSED
+openBrowser,Firefox 62.0,,2018-10-28 07:33:22,2018-10-28 07:33:32,9.202s,PASSED
+openBrowser,Firefox 62.0,,2018-10-28 07:33:32,2018-10-28 07:33:39,7.627s,PASSED
+navigateToUrl,Firefox 62.0,,2018-10-28 07:33:39,2018-10-28 07:33:42,2.281s,PASSED
+,,,,,,
+Test Cases/Common/LoginFromDatabase,Firefox 62.0,,2018-10-28 07:33:42,2018-10-28 07:33:45,3.284s,PASSED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(userDetail),Firefox 62.0,,2018-10-28 07:33:42,2018-10-28 07:33:43,0.962s,PASSED
+"Statement - userName = dbdata.getValue(Email.ordinal(), userIndex)",Firefox 62.0,,2018-10-28 07:33:43,2018-10-28 07:33:43,0.151s,PASSED
+"Statement - password = dbdata.getValue(Password.ordinal(), userIndex)",Firefox 62.0,,2018-10-28 07:33:43,2018-10-28 07:33:43,0.001s,PASSED
+phpTravels.Common.Login,Firefox 62.0,,2018-10-28 07:33:43,2018-10-28 07:33:45,1.594s,PASSED
+,,,,,,
+Test Cases/Tour/BookTour,Firefox 62.0,,2018-10-28 07:33:45,2018-10-28 07:34:22,36.952s,PASSED
+phpTravels.Tour.NavigateToTourPage,Firefox 62.0,,2018-10-28 07:33:45,2018-10-28 07:33:57,11.829s,PASSED
+phpTravels.Tour.SetTourDetails,Firefox 62.0,,2018-10-28 07:33:57,2018-10-28 07:34:06,8.442s,PASSED
+phpTravels.Tour.SetTourInclusions,Firefox 62.0,,2018-10-28 07:34:06,2018-10-28 07:34:16,10.480s,PASSED
+phpTravels.Tour.SetTourExclusions,Firefox 62.0,,2018-10-28 07:34:16,2018-10-28 07:34:19,2.619s,PASSED
+phpTravels.Tour.SaveTour,Firefox 62.0,,2018-10-28 07:34:19,2018-10-28 07:34:22,3.023s,PASSED
+,,,,,,
+Test Cases/User/AddSupplier,Firefox 62.0,,2018-10-28 07:34:22,2018-10-28 07:35:00,38.543s,FAILED
+click,Firefox 62.0,,2018-10-28 07:34:23,2018-10-28 07:34:24,1.009s,PASSED
+click,Firefox 62.0,,2018-10-28 07:34:24,2018-10-28 07:34:25,1.757s,PASSED
+click,Firefox 62.0,,2018-10-28 07:34:25,2018-10-28 07:34:28,2.277s,PASSED
+setText,Firefox 62.0,,2018-10-28 07:34:28,2018-10-28 07:34:28,0.844s,PASSED
+setText,Firefox 62.0,,2018-10-28 07:34:28,2018-10-28 07:34:29,0.477s,PASSED
+setText,Firefox 62.0,,2018-10-28 07:34:29,2018-10-28 07:34:29,0.197s,PASSED
+setText,Firefox 62.0,,2018-10-28 07:34:29,2018-10-28 07:34:29,0.324s,PASSED
+click,Firefox 62.0,,2018-10-28 07:34:29,2018-10-28 07:35:00,30.849s,FAILED
+,,,,,,
+Test Cases/Common/LogOut,Firefox 62.0,,2018-10-28 07:35:00,2018-10-28 07:35:03,2.340s,PASSED
+click,Firefox 62.0,,2018-10-28 07:35:01,2018-10-28 07:35:03,2.024s,PASSED
