@@ -24,6 +24,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.click(findTestObject('user/supplier/navigation/a_account'))
 WebUI.click(findTestObject('user/supplier/navigation/a_supplier'))
 WebUI.click(findTestObject('user/supplier/actions/button_add'))
+WebUI.waitForPageLoad(50, FailureHandling.STOP_ON_FAILURE)
 WebUI.setText(findTestObject('user/supplier/fields/input_first_name'), FirstName)
 WebUI.setText(findTestObject('user/supplier/fields/input_last_name'), LastName)
 WebUI.setText(findTestObject('user/supplier/fields/input_email'), Email)

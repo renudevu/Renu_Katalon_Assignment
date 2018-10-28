@@ -4,7 +4,7 @@
    <name>ManageOperationForNewAdmin</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-28T09:29:44</lastRun>
+   <lastRun>2018-10-28T20:34:01</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,6 +16,24 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Common/NavigateToUrl</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0d75e6dc-1f38-451f-a32c-bd9e5703285a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common/Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9647eb7d-3987-4171-afa0-44b3a78c252b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User/AddAdmin</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a55af2bf-c7be-47c9-8207-5a7cb1ae9721</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common/LogOut</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ac6c256d-1e42-48cd-a7d7-bb4f275ff5eb</guid>
@@ -141,9 +159,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a55af2bf-c7be-47c9-8207-5a7cb1ae9721</guid>
+      <guid>dc357ef2-d3f8-439c-981d-da58b1c3718b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common/LogOut</testCaseId>
+      <testCaseId>Test Cases/Common/LogOutNewAdmin</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

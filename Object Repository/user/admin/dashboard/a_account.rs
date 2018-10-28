@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Account</name>
+   <name>a_account</name>
    <tag></tag>
    <elementGuidId>8e21e3ba-90fe-4579-895d-f8d69894e049</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

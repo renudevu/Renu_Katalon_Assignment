@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Add</name>
+   <name>button_add</name>
    <tag></tag>
    <elementGuidId>aa917ece-12ed-49e1-a61a-4dff4135ccd8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

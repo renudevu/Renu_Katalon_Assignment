@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Admin</name>
+   <name>a_admin</name>
    <tag></tag>
    <elementGuidId>42564f79-093a-45bb-a7ac-3906c7da8f27</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

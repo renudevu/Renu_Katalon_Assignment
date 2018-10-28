@@ -57,9 +57,9 @@ public class Admin {
 
 	@Keyword
 	def NavigateToAdminPage(){
-		WebUI.click(findTestObject('user/admin/dashboard/a_Account'))
-		WebUI.click(findTestObject('user/admin/dashboard/a_Admin'))
-		WebUI.click(findTestObject('user/admin/action/button_Add'))
+		WebUI.click(findTestObject('user/admin/dashboard/a_account'))
+		WebUI.click(findTestObject('user/admin/dashboard/a_admin'))
+		WebUI.click(findTestObject('user/admin/action/button_add'))
 	}
 
 	@Keyword
@@ -97,7 +97,7 @@ public class Admin {
 
 	@Keyword
 	def SaveDetails(){
-		WebUI.click(findTestObject('user/admin/action/button_Submit'))
+		WebUI.click(findTestObject('user/admin/action/button_submit'))
 		WebUI.waitForPageLoad(50, FailureHandling.STOP_ON_FAILURE)
 		WebUI.verifyElementPresent(findTestObject('user/admin/fields/created_admin'), 30)
 		println("Admin added successfully")

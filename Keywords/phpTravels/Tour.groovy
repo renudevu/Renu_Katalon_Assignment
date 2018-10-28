@@ -63,7 +63,6 @@ public enum Travel {
 class Tour {
 
 	public int tourIndex=0;
-	public int inclusionIndex=2;
 
 	@Keyword
 	def NavigateToTourPage(){
