@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ManageOperationForNewAdmin,Firefox 62.0,,2018-10-28 09:29:47,2018-10-28 09:30:58,1m - 11.754s,PASSED
+,,,,,,
+Test Cases/Common/NavigateToUrl,Firefox 62.0,,2018-10-28 09:29:47,2018-10-28 09:30:05,17.678s,PASSED
+openBrowser,Firefox 62.0,,2018-10-28 09:29:48,2018-10-28 09:29:56,8.239s,PASSED
+openBrowser,Firefox 62.0,,2018-10-28 09:29:56,2018-10-28 09:30:02,6.147s,PASSED
+navigateToUrl,Firefox 62.0,,2018-10-28 09:30:02,2018-10-28 09:30:05,2.720s,PASSED
+,,,,,,
+Test Cases/Common/LoginFromDatabase,Firefox 62.0,,2018-10-28 09:30:05,2018-10-28 09:30:08,2.796s,PASSED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(userDetail),Firefox 62.0,,2018-10-28 09:30:05,2018-10-28 09:30:06,0.924s,PASSED
+"Statement - userName = dbdata.getValue(Email.ordinal(), userIndex)",Firefox 62.0,,2018-10-28 09:30:06,2018-10-28 09:30:06,0.086s,PASSED
+"Statement - password = dbdata.getValue(Password.ordinal(), userIndex)",Firefox 62.0,,2018-10-28 09:30:06,2018-10-28 09:30:06,0.006s,PASSED
+phpTravels.Common.Login,Firefox 62.0,,2018-10-28 09:30:06,2018-10-28 09:30:08,1.458s,PASSED
+,,,,,,
+Test Cases/Tour/BookTour,Firefox 62.0,,2018-10-28 09:30:08,2018-10-28 09:30:40,32.023s,PASSED
+phpTravels.Tour.NavigateToTourPage,Firefox 62.0,,2018-10-28 09:30:08,2018-10-28 09:30:17,8.150s,PASSED
+phpTravels.Tour.SetTourDetails,Firefox 62.0,,2018-10-28 09:30:17,2018-10-28 09:30:25,8.550s,PASSED
+phpTravels.Tour.SetTourInclusions,Firefox 62.0,,2018-10-28 09:30:25,2018-10-28 09:30:35,9.969s,PASSED
+phpTravels.Tour.SetTourExclusions,Firefox 62.0,,2018-10-28 09:30:35,2018-10-28 09:30:37,2.344s,PASSED
+phpTravels.Tour.SaveTour,Firefox 62.0,,2018-10-28 09:30:37,2018-10-28 09:30:40,2.528s,PASSED
+,,,,,,
+Test Cases/User/AddSupplier,Firefox 62.0,,2018-10-28 09:30:40,2018-10-28 09:30:56,16.175s,PASSED
+click,Firefox 62.0,,2018-10-28 09:30:41,2018-10-28 09:30:41,0.715s,PASSED
+click,Firefox 62.0,,2018-10-28 09:30:41,2018-10-28 09:30:43,1.800s,PASSED
+click,Firefox 62.0,,2018-10-28 09:30:43,2018-10-28 09:30:45,1.769s,PASSED
+setText,Firefox 62.0,,2018-10-28 09:30:45,2018-10-28 09:30:45,0.319s,PASSED
+setText,Firefox 62.0,,2018-10-28 09:30:45,2018-10-28 09:30:45,0.125s,PASSED
+setText,Firefox 62.0,,2018-10-28 09:30:45,2018-10-28 09:30:46,0.174s,PASSED
+setText,Firefox 62.0,,2018-10-28 09:30:46,2018-10-28 09:30:46,0.173s,PASSED
+setText,Firefox 62.0,,2018-10-28 09:30:46,2018-10-28 09:30:46,0.110s,PASSED
+click,Firefox 62.0,,2018-10-28 09:30:46,2018-10-28 09:30:47,0.840s,PASSED
+setText,Firefox 62.0,,2018-10-28 09:30:47,2018-10-28 09:30:47,0.650s,PASSED
+click,Firefox 62.0,,2018-10-28 09:30:47,2018-10-28 09:30:48,0.767s,PASSED
+setText,Firefox 62.0,,2018-10-28 09:30:48,2018-10-28 09:30:48,0.255s,PASSED
+setText,Firefox 62.0,,2018-10-28 09:30:48,2018-10-28 09:30:49,0.161s,PASSED
+selectOptionByValue,Firefox 62.0,,2018-10-28 09:30:49,2018-10-28 09:30:49,0.429s,PASSED
+setText,Firefox 62.0,,2018-10-28 09:30:49,2018-10-28 09:30:49,0.072s,PASSED
+"Statement - For ([i = 1, i <= 5, (i++)])",Firefox 62.0,,2018-10-28 09:30:49,2018-10-28 09:30:53,4.415s,PASSED
+click,Firefox 62.0,,2018-10-28 09:30:53,2018-10-28 09:30:56,2.367s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-28 09:30:56,2018-10-28 09:30:56,0.133s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-28 09:30:56,2018-10-28 09:30:56,0.133s,PASSED
+"Statement - println(""Admin added successfully"")",Firefox 62.0,,2018-10-28 09:30:56,2018-10-28 09:30:56,0.002s,PASSED
+,,,,,,
+Test Cases/Common/LogOut,Firefox 62.0,,2018-10-28 09:30:56,2018-10-28 09:30:58,1.725s,PASSED
+click,Firefox 62.0,,2018-10-28 09:30:56,2018-10-28 09:30:58,1.504s,PASSED

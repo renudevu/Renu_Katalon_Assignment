@@ -99,7 +99,7 @@ public class Admin {
 	def SaveDetails(){
 		WebUI.click(findTestObject('user/admin/action/button_Submit'))
 		WebUI.waitForPageLoad(50, FailureHandling.STOP_ON_FAILURE)
-		WebUI.verifyElementPresent(findTestObject('user/admin/fields/created_Admin'), 30)
+		WebUI.verifyElementPresent(findTestObject('user/admin/fields/created_admin'), 30)
 		println("Admin added successfully")
 	}
 }

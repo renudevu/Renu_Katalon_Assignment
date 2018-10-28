@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>created_Admin</name>
+   <name>created_admin</name>
    <tag></tag>
    <elementGuidId>ffbf6963-efe4-4f82-9e48-0f2e83ef954b</elementGuidId>
    <selectorCollection>
