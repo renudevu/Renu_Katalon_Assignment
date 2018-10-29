@@ -20,10 +20,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//CustomKeywords.'phpTravels.Supplier.SetSupplierDetails'()
 
 WebUI.click(findTestObject('user/supplier/navigation/a_account'))
 WebUI.click(findTestObject('user/supplier/navigation/a_supplier'))
-WebUI.click(findTestObject('user/supplier/actions/button_add'))
+WebUI.click(findTestObject('user/supplier/action/button_add'))
 WebUI.waitForPageLoad(50, FailureHandling.STOP_ON_FAILURE)
 WebUI.setText(findTestObject('user/supplier/fields/input_first_name'), FirstName)
 WebUI.setText(findTestObject('user/supplier/fields/input_last_name'), LastName)
@@ -37,15 +38,12 @@ WebUI.setText(findTestObject('user/supplier/fields/input_address_line1'), Addres
 WebUI.setText(findTestObject('user/supplier/fields/input_address_line2'), AddressLine2)
 WebUI.selectOptionByValue(findTestObject('user/supplier/fields/select_apply_for'), SupplierFor, true)
 WebUI.setText(findTestObject('user/supplier/fields/input_item_name'), ItemName)
-//WebUI.click(findTestObject('user/supplier/fields/ul_select_hotel'))
-//WebUI.setText(findTestObject('user/supplier/fields/input_select_hotel'), Hotel)
-//WebUI.sendKeys(findTestObject('user/supplier/fields/input_select_hotel'), Keys.chord(Keys.TAB))
-//WebUI.click(findTestObject('user/supplier/fields/ul_select_tour'))
-//WebUI.setText(findTestObject('user/supplier/fields/input_select_tour'), Tour)
-//WebUI.sendKeys(findTestObject('user/supplier/fields/input_select_tour'), Keys.chord(Keys.TAB))
-//WebUI.click(findTestObject('user/supplier/fields/ul_select_car'))
-//WebUI.setText(findTestObject('user/supplier/fields/input_select_car'), Car)
-//WebUI.sendKeys(findTestObject('user/supplier/fields/input_select_car'), Keys.chord(Keys.TAB))
+WebUI.click(findTestObject('user/supplier/fields/ul_select_hotel'))
+WebUI.click(findTestObject('user/supplier/fields/input_select_hotel'))
+WebUI.click(findTestObject('user/supplier/fields/ul_select_tour'))
+WebUI.click(findTestObject('user/supplier/fields/input_select_tour'))
+WebUI.click(findTestObject('user/supplier/fields/ul_select_car'))
+WebUI.click(findTestObject('user/supplier/fields/input_select_car'))
 
 for(int i=1;i<=5;i++) {
 	if(CanAdd=='1'){
@@ -58,7 +56,7 @@ for(int i=1;i<=5;i++) {
 		WebUI.check(findTestObject('user/supplier/fields/checkbox_all_delete',[('value') : i]))
 	}
 }
-WebUI.click(findTestObject('user/supplier/actions/button_submit'))
+WebUI.click(findTestObject('user/supplier/action/button_submit'))
 WebUI.waitForPageLoad(50, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementPresent(findTestObject('user/supplier/fields/created_supplier'), 30)
 println("Admin added successfully")

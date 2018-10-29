@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ManageOperationForNewAdmin" time="133" tests="5" failures="3" errors="0">
+   <testsuite name="ManageOperationForNewAdmin" tests="5" failures="3" errors="0" time="133" timestamp="2018-10-29 22:20:42" hostname="Renu - Renu-PC" id="Test Suites/ManageOperationForNewAdmin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_222039"/>
+         <property name="logFiles" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_222039\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_222039\\1540831971901.png, D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_222039\\1540831972253.png, D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_222039\\1540831973453.png, D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_222039\\1540831975343.png"/>
+         <property name="hostName" value="Renu - Renu-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 47.0"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+         <property name="hostAddress" value="192.168.1.75"/>
+         <property name="sessionId" value="92eb87df-3f92-4219-8fe1-13b1d2d227b1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/NavigateToUrl" classname="Test Cases/Common/NavigateToUrl" status="PASSED">
+         <system-out><![CDATA[2018-10-29 22:20:43 - [TEST_CASE][PASSED] - Test Cases/Common/NavigateToUrl: Test Cases/Common/NavigateToUrl
+
+2018-10-29 22:20:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 22:20:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 22:20:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-29 22:21:03 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-29 22:21:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-29 22:21:03 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/Login" classname="Test Cases/Common/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-29 22:21:03 - [TEST_CASE][PASSED] - Test Cases/Common/Login: Test Cases/Common/Login
+
+2018-10-29 22:21:03 - [TEST_STEP][PASSED] - phpTravels.Common.Login: phpTravels.Common.Login is PASSED
+
+2018-10-29 22:21:04 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/login/input_email'
+
+2018-10-29 22:21:05 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/login/input_password'
+
+2018-10-29 22:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/common/login/button_Login' is clicked on
+
+2018-10-29 22:21:05 - [MESSAGE][PASSED] - phpTravels.Common.Login is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/AddAdmin" classname="Test Cases/User/AddAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-29 22:21:05 - [TEST_CASE][PASSED] - Test Cases/User/AddAdmin: Test Cases/User/AddAdmin
+
+2018-10-29 22:21:06 - [TEST_STEP][PASSED] - phpTravels.Admin.NavigateToAdminPage: phpTravels.Admin.NavigateToAdminPage is PASSED
+
+2018-10-29 22:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/dashboard/a_account' is clicked on
+
+2018-10-29 22:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/dashboard/a_admin' is clicked on
+
+2018-10-29 22:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/action/button_add' is clicked on
+
+2018-10-29 22:21:23 - [MESSAGE][PASSED] - phpTravels.Admin.NavigateToAdminPage is PASSED
+
+2018-10-29 22:21:23 - [TEST_STEP][PASSED] - phpTravels.Admin.SetAdminDetails: phpTravels.Admin.SetAdminDetails is PASSED
+
+2018-10-29 22:21:24 - [MESSAGE][PASSED] - Text 'Renu' is set on object 'Object Repository/user/admin/fields/input_first_name'
+
+2018-10-29 22:21:24 - [MESSAGE][PASSED] - Text 'Rahul' is set on object 'Object Repository/user/admin/fields/input_last_name'
+
+2018-10-29 22:21:25 - [MESSAGE][PASSED] - Text 'tr@test.com' is set on object 'Object Repository/user/admin/fields/input_email_address'
+
+2018-10-29 22:21:25 - [MESSAGE][PASSED] - Text 'inapp2.0' is set on object 'Object Repository/user/admin/fields/input_password'
+
+2018-10-29 22:21:25 - [MESSAGE][PASSED] - Text '8891767706' is set on object 'Object Repository/user/admin/fields/input_mobile_number'
+
+2018-10-29 22:21:25 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country_control' is clicked on
+
+2018-10-29 22:21:26 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country_search' is clicked on
+
+2018-10-29 22:21:26 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/user/admin/fields/autocomplete_country_search'
+
+2018-10-29 22:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country_select' is clicked on
+
+2018-10-29 22:21:27 - [MESSAGE][PASSED] - Text 'Thannikattethu' is set on object 'Object Repository/user/admin/fields/input_address_line1'
+
+2018-10-29 22:21:27 - [MESSAGE][PASSED] - Text 'Kadapra-Mannar' is set on object 'Object Repository/user/admin/fields/input_address_line2'
+
+2018-10-29 22:21:27 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/user/admin/fields/select_status'
+
+2018-10-29 22:21:27 - [MESSAGE][PASSED] - phpTravels.Admin.SetAdminDetails is PASSED
+
+2018-10-29 22:21:27 - [TEST_STEP][PASSED] - phpTravels.Admin.ManageAccessDetails: phpTravels.Admin.ManageAccessDetails is PASSED
+
+2018-10-29 22:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-29 22:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-29 22:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-29 22:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-29 22:21:28 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-29 22:21:29 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-29 22:21:29 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-29 22:21:29 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-29 22:21:29 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-29 22:21:29 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-29 22:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-29 22:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-29 22:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-29 22:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-29 22:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-29 22:21:30 - [MESSAGE][PASSED] - phpTravels.Admin.ManageAccessDetails is PASSED
+
+2018-10-29 22:21:30 - [TEST_STEP][PASSED] - phpTravels.Admin.SaveDetails: phpTravels.Admin.SaveDetails is PASSED
+
+2018-10-29 22:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/action/button_submit' is clicked on
+
+2018-10-29 22:21:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 22:21:36 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/created_admin' is present
+
+2018-10-29 22:21:36 - [MESSAGE][PASSED] - phpTravels.Admin.SaveDetails is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LogOut" classname="Test Cases/Common/LogOut" status="PASSED">
+         <system-out><![CDATA[2018-10-29 22:21:36 - [TEST_CASE][PASSED] - Test Cases/Common/LogOut: Test Cases/Common/LogOut
+
+2018-10-29 22:21:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/common/logout/button_Logout' is clicked on
+
+2018-10-29 22:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/common/logout/button_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LoginFromDatabase" classname="Test Cases/Common/LoginFromDatabase" status="PASSED">
+         <system-out><![CDATA[2018-10-29 22:21:37 - [TEST_CASE][PASSED] - Test Cases/Common/LoginFromDatabase: Test Cases/Common/LoginFromDatabase
+
+2018-10-29 22:21:37 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(userDetail): Reading database data with query 'SELECT * FROM katalon_renu_16_10_2018.user'
+
+2018-10-29 22:21:37 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(Email.ordinal(), userIndex): null
+
+2018-10-29 22:21:37 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(Password.ordinal(), userIndex): null
+
+2018-10-29 22:21:37 - [TEST_STEP][PASSED] - phpTravels.Common.Login: phpTravels.Common.Login is PASSED
+
+2018-10-29 22:21:39 - [MESSAGE][PASSED] - Text 'tr@test.com' is set on object 'Object Repository/common/login/input_email'
+
+2018-10-29 22:21:39 - [MESSAGE][PASSED] - Text 'inapp2.0' is set on object 'Object Repository/common/login/input_password'
+
+2018-10-29 22:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/common/login/button_Login' is clicked on
+
+2018-10-29 22:21:39 - [MESSAGE][PASSED] - phpTravels.Common.Login is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tour/BookTour" classname="Test Cases/Tour/BookTour" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/tour/fields/table_list' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/fields/table_list' located by 'By.xpath: .//tbody//*[contains(text(),'Alappuzha Tour')]' not found)"/>
+         <system-out><![CDATA[2018-10-29 22:21:39 - [TEST_CASE][FAILED] - Test Cases/Tour/BookTour: Test Cases/Tour/BookTour FAILED because (of) Unable to verify object 'Object Repository/tour/fields/table_list' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/fields/table_list' located by 'By.xpath: .//tbody//*[contains(text(),'Alappuzha Tour')]' not found)
+
+2018-10-29 22:21:40 - [TEST_STEP][PASSED] - phpTravels.Tour.NavigateToTourPage: phpTravels.Tour.NavigateToTourPage is PASSED
+
+2018-10-29 22:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/navigation/a_tour' is clicked on
+
+2018-10-29 22:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/navigation/a_Add' is clicked on
+
+2018-10-29 22:21:46 - [MESSAGE][PASSED] - phpTravels.Tour.NavigateToTourPage is PASSED
+
+2018-10-29 22:21:46 - [TEST_STEP][PASSED] - phpTravels.Tour.SetTourDetails: phpTravels.Tour.SetTourDetails is PASSED
+
+2018-10-29 22:21:55 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/tour/fields/select_status'  using regular expression
+
+2018-10-29 22:21:56 - [MESSAGE][PASSED] - Text 'Alappuzha Tour' is set on object 'Object Repository/tour/fields/input_name'
+
+2018-10-29 22:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/iframe_body' is clicked on
+
+2018-10-29 22:21:57 - [MESSAGE][PASSED] - Text 'Vacation Holiday Trip' is set on object 'Object Repository/tour/fields/iframe_body'
+
+2018-10-29 22:21:59 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/tour/fields/input_adult_count'
+
+2018-10-29 22:22:00 - [MESSAGE][PASSED] - Text '750' is set on object 'Object Repository/tour/fields/input_adult_price'
+
+2018-10-29 22:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/span_enable_child' is clicked on
+
+2018-10-29 22:22:01 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/tour/fields/input_child_count'
+
+2018-10-29 22:22:02 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/tour/fields/input_child_price'
+
+2018-10-29 22:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/span_enable_infants' is clicked on
+
+2018-10-29 22:22:02 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/tour/fields/input_infant_count'
+
+2018-10-29 22:22:03 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/tour/fields/input_infant_price'
+
+2018-10-29 22:22:04 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/tour/fields/select_option'  using regular expression
+
+2018-10-29 22:22:04 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/tour/fields/input_days'
+
+2018-10-29 22:22:04 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/tour/fields/input_nights'
+
+2018-10-29 22:22:04 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/select_type' is clicked on
+
+2018-10-29 22:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/select_type_option' is clicked on
+
+2018-10-29 22:22:05 - [MESSAGE][PASSED] - All options with value 'yes' are selected in object 'Object Repository/tour/fields/select_featured'  using regular expression
+
+2018-10-29 22:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/autocomplete_location_selector' is clicked on
+
+2018-10-29 22:22:06 - [MESSAGE][PASSED] - Text 'Thiruvananthapuram' is set on object 'Object Repository/tour/fields/autocomplete_location_control'
+
+2018-10-29 22:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/autocomplete_location_trigger' is clicked on
+
+2018-10-29 22:22:07 - [MESSAGE][PASSED] - phpTravels.Tour.SetTourDetails is PASSED
+
+2018-10-29 22:22:07 - [TEST_STEP][PASSED] - phpTravels.Tour.SetTourInclusions: phpTravels.Tour.SetTourInclusions is PASSED
+
+2018-10-29 22:22:08 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/a_inclusion' is clicked on
+
+2018-10-29 22:22:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 22:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-10-29 22:22:16 - [MESSAGE][PASSED] - phpTravels.Tour.SetTourInclusions is PASSED
+
+2018-10-29 22:22:16 - [TEST_STEP][PASSED] - phpTravels.Tour.SetTourExclusions: phpTravels.Tour.SetTourExclusions is PASSED
+
+2018-10-29 22:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/a_exclusion' is clicked on
+
+2018-10-29 22:22:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 22:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-10-29 22:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-10-29 22:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-10-29 22:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-10-29 22:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-10-29 22:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-10-29 22:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-10-29 22:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-10-29 22:22:18 - [MESSAGE][PASSED] - phpTravels.Tour.SetTourExclusions is PASSED
+
+2018-10-29 22:22:18 - [TEST_STEP][FAILED] - phpTravels.Tour.SaveTour: Unable to verify object 'Object Repository/tour/fields/table_list' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/fields/table_list' located by 'By.xpath: .//tbody//*[contains(text(),'Alappuzha Tour')]' not found)
+
+2018-10-29 22:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/button_submit' is clicked on
+
+2018-10-29 22:22:52 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/fields/table_list' located by 'By.xpath: .//tbody//*[contains(text(),'Alappuzha Tour')]' not found
+[[ATTACHMENT|D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_222039\\1540831971901.png]]
+
+2018-10-29 22:22:52 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/tour/fields/table_list' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/fields/table_list' located by 'By.xpath: .//tbody//*[contains(text(),'Alappuzha Tour')]' not found)
+[[ATTACHMENT|D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_222039\\1540831972253.png]]
+
+2018-10-29 22:22:52 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/tour/fields/table_list' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/fields/table_list' located by 'By.xpath: .//tbody//*[contains(text(),'Alappuzha Tour')]' not found)]]></system-out>
+         <system-err><![CDATA[2018-10-29 22:21:39 - [TEST_CASE][FAILED] - Test Cases/Tour/BookTour: Test Cases/Tour/BookTour FAILED because (of) Unable to verify object 'Object Repository/tour/fields/table_list' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/fields/table_list' located by 'By.xpath: .//tbody//*[contains(text(),'Alappuzha Tour')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/AddSupplier" classname="Test Cases/User/AddSupplier" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/user/supplier/navigation/a_account' (Root cause: org.openqa.selenium.WebDriverException: Element &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#social-sidebar-menu&quot; href=&quot;#ACCOUNTS&quot;>&lt;/a> is not clickable at point (110, 240). Other element would receive the click: &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#social-sidebar-menu&quot; href=&quot;#ACCOUNTS&quot;>&lt;/a>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 92eb87df-3f92-4219-8fe1-13b1d2d227b1)"/>
+         <system-out><![CDATA[2018-10-29 22:22:52 - [TEST_CASE][FAILED] - Test Cases/User/AddSupplier: Test Cases/User/AddSupplier FAILED because (of) Unable to click on object 'Object Repository/user/supplier/navigation/a_account' (Root cause: org.openqa.selenium.WebDriverException: Element <a data-toggle="collapse" data-parent="#social-sidebar-menu" href="#ACCOUNTS"></a> is not clickable at point (110, 240). Other element would receive the click: <a data-toggle="collapse" data-parent="#social-sidebar-menu" href="#ACCOUNTS"></a>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 92eb87df-3f92-4219-8fe1-13b1d2d227b1)
+
+2018-10-29 22:22:53 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/user/supplier/navigation/a_account' (Root cause: org.openqa.selenium.WebDriverException: Element <a data-toggle="collapse" data-parent="#social-sidebar-menu" href="#ACCOUNTS"></a> is not clickable at point (110, 240). Other element would receive the click: <a data-toggle="collapse" data-parent="#social-sidebar-menu" href="#ACCOUNTS"></a>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 92eb87df-3f92-4219-8fe1-13b1d2d227b1)
+
+2018-10-29 22:22:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/user/supplier/navigation/a_account' (Root cause: org.openqa.selenium.WebDriverException: Element <a data-toggle="collapse" data-parent="#social-sidebar-menu" href="#ACCOUNTS"></a> is not clickable at point (110, 240). Other element would receive the click: <a data-toggle="collapse" data-parent="#social-sidebar-menu" href="#ACCOUNTS"></a>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 92eb87df-3f92-4219-8fe1-13b1d2d227b1)
+[[ATTACHMENT|D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_222039\\1540831973453.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-29 22:22:52 - [TEST_CASE][FAILED] - Test Cases/User/AddSupplier: Test Cases/User/AddSupplier FAILED because (of) Unable to click on object 'Object Repository/user/supplier/navigation/a_account' (Root cause: org.openqa.selenium.WebDriverException: Element <a data-toggle="collapse" data-parent="#social-sidebar-menu" href="#ACCOUNTS"></a> is not clickable at point (110, 240). Other element would receive the click: <a data-toggle="collapse" data-parent="#social-sidebar-menu" href="#ACCOUNTS"></a>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 92eb87df-3f92-4219-8fe1-13b1d2d227b1)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LogOutNewAdmin" classname="Test Cases/Common/LogOutNewAdmin" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: org.openqa.selenium.WebDriverException: Element &lt;a class=&quot;btn btn-danger btn-sm btn-block&quot; href=&quot;https://www.phptravels.net/admin/logout&quot;>&lt;/a> is not clickable at point (162, 59.5). Other element would receive the click: &lt;a class=&quot;btn btn-danger btn-sm btn-block&quot; href=&quot;https://www.phptravels.net/admin/logout&quot;>&lt;/a>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 92eb87df-3f92-4219-8fe1-13b1d2d227b1)"/>
+         <system-out><![CDATA[2018-10-29 22:22:53 - [TEST_CASE][FAILED] - Test Cases/Common/LogOutNewAdmin: Test Cases/Common/LogOutNewAdmin FAILED because (of) Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: org.openqa.selenium.WebDriverException: Element <a class="btn btn-danger btn-sm btn-block" href="https://www.phptravels.net/admin/logout"></a> is not clickable at point (162, 59.5). Other element would receive the click: <a class="btn btn-danger btn-sm btn-block" href="https://www.phptravels.net/admin/logout"></a>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 92eb87df-3f92-4219-8fe1-13b1d2d227b1)
+
+2018-10-29 22:22:53 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: org.openqa.selenium.WebDriverException: Element <a class="btn btn-danger btn-sm btn-block" href="https://www.phptravels.net/admin/logout"></a> is not clickable at point (162, 59.5). Other element would receive the click: <a class="btn btn-danger btn-sm btn-block" href="https://www.phptravels.net/admin/logout"></a>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 92eb87df-3f92-4219-8fe1-13b1d2d227b1)
+
+2018-10-29 22:22:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: org.openqa.selenium.WebDriverException: Element <a class="btn btn-danger btn-sm btn-block" href="https://www.phptravels.net/admin/logout"></a> is not clickable at point (162, 59.5). Other element would receive the click: <a class="btn btn-danger btn-sm btn-block" href="https://www.phptravels.net/admin/logout"></a>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 92eb87df-3f92-4219-8fe1-13b1d2d227b1)
+[[ATTACHMENT|D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_222039\\1540831975343.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-29 22:22:53 - [TEST_CASE][FAILED] - Test Cases/Common/LogOutNewAdmin: Test Cases/Common/LogOutNewAdmin FAILED because (of) Unable to click on object 'Object Repository/common/logout/button_Logout' (Root cause: org.openqa.selenium.WebDriverException: Element <a class="btn btn-danger btn-sm btn-block" href="https://www.phptravels.net/admin/logout"></a> is not clickable at point (162, 59.5). Other element would receive the click: <a class="btn btn-danger btn-sm btn-block" href="https://www.phptravels.net/admin/logout"></a>
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: true, browserName: firefox, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, nativeEvents: false, platform: WINDOWS, platformName: WINDOWS, rotatable: false, takesScreenshot: true, version: 47.0.2, webStorageEnabled: true}
+Session ID: 92eb87df-3f92-4219-8fe1-13b1d2d227b1)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-29 22:20:42 - [TEST_SUITE][FAILED] - ManageOperationForNewAdmin: Test Cases/Tour/BookTour FAILED because (of) Unable to verify object 'Object Repository/tour/fields/table_list' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/fields/table_list' located by 'By.xpath: .//tbody//*[contains(text(),'Alappuzha Tour')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-10-29 22:20:42 - [TEST_SUITE][FAILED] - ManageOperationForNewAdmin: Test Cases/Tour/BookTour FAILED because (of) Unable to verify object 'Object Repository/tour/fields/table_list' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tour/fields/table_list' located by 'By.xpath: .//tbody//*[contains(text(),'Alappuzha Tour')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

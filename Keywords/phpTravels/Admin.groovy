@@ -20,13 +20,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
 import internal.GlobalVariable
-
+import jdk.internal.instrumentation.MethodCallInliner.CatchBlock
 import MobileBuiltInKeywords as Mobile
 import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
+
+import org.codehaus.groovy.ast.stmt.TryCatchStatement
 
 public enum User {
 	Row,
@@ -59,11 +61,11 @@ public class Admin {
 	def NavigateToAdminPage(){
 		WebUI.click(findTestObject('user/admin/dashboard/a_account'))
 		WebUI.click(findTestObject('user/admin/dashboard/a_admin'))
-		WebUI.click(findTestObject('user/admin/action/button_add'))
 	}
 
 	@Keyword
 	def SetAdminDetails(int userIndex){
+		WebUI.click(findTestObject('user/admin/action/button_add'))
 		def dbdata= findTestData('userDetail')
 		WebUI.setText(findTestObject('user/admin/fields/input_first_name'), dbdata.getValue(User.FirstName.ordinal(),userIndex))
 		WebUI.setText(findTestObject('user/admin/fields/input_last_name'), dbdata.getValue(User.LastName.ordinal(),userIndex))
@@ -101,5 +103,12 @@ public class Admin {
 		WebUI.waitForPageLoad(50, FailureHandling.STOP_ON_FAILURE)
 		WebUI.verifyElementPresent(findTestObject('user/admin/fields/created_admin'), 30)
 		println("Admin added successfully")
+	}
+
+	def DeleteAdmin(){
+		WebUI.click(findTestObject('user/admin/action/checkbox_admin'))
+		WebUI.click(findTestObject('user/admin/action/button_delete'))
+		WebUI.acceptAlert()
+		println("Admin deleted successfully")
 	}
 }

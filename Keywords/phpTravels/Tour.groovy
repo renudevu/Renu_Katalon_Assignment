@@ -84,9 +84,10 @@ class Tour {
 		WebUI.click(findTestObject('tour/fields/span_enable_child'))
 		WebUI.setText(findTestObject('tour/fields/input_child_count'), data.internallyGetValue(Travel.ChildCount.ordinal(), tourIndex))
 		WebUI.setText(findTestObject('tour/fields/input_child_price'), data.internallyGetValue(Travel.ChildPrice.ordinal(), tourIndex))
-		//WebUI.click(findTestObject('tour/fields/span_enable_infants'))
-		//WebUI.setText(findTestObject('tour/fields/input_infant_count'), data.internallyGetValue(Travel.InfantCount.ordinal(), tourIndex))
-		//WebUI.setText(findTestObject('tour/fields/input_infant_price'), data.internallyGetValue(Travel.InfantPrice.ordinal(), tourIndex))
+
+		WebUI.click(findTestObject('tour/fields/span_enable_infants'))
+		WebUI.setText(findTestObject('tour/fields/input_infant_count'), data.internallyGetValue(Travel.InfantCount.ordinal(), tourIndex))
+		WebUI.setText(findTestObject('tour/fields/input_infant_price'), data.internallyGetValue(Travel.InfantPrice.ordinal(), tourIndex))
 		WebUI.selectOptionByValue(findTestObject('tour/fields/select_option'), data.internallyGetValue(Travel.Star.ordinal(), tourIndex), true)
 		WebUI.setText(findTestObject('tour/fields/input_days'), data.internallyGetValue(Travel.Days.ordinal(), tourIndex))
 		WebUI.setText(findTestObject('tour/fields/input_nights'), data.internallyGetValue(Travel.Night.ordinal(), tourIndex))

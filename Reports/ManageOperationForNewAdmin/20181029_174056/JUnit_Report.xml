@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ManageOperationForNewAdmin" time="71" tests="5" failures="3" errors="0">
+   <testsuite name="ManageOperationForNewAdmin" tests="5" failures="3" errors="0" time="71" timestamp="2018-10-29 17:41:00" hostname="Renu - Renu-PC" id="Test Suites/ManageOperationForNewAdmin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_174056"/>
+         <property name="logFiles" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_174056\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_174056\\1540815129165.png"/>
+         <property name="hostName" value="Renu - Renu-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+         <property name="hostAddress" value="192.168.1.75"/>
+         <property name="sessionId" value="93eab69ed9a9f45c1b617a14cb249fcb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/NavigateToUrl" classname="Test Cases/Common/NavigateToUrl" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:41:01 - [TEST_CASE][PASSED] - Test Cases/Common/NavigateToUrl: Test Cases/Common/NavigateToUrl
+
+2018-10-29 17:41:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-29 17:41:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-29 17:41:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-29 17:41:09 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-29 17:41:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-29 17:41:11 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/Login" classname="Test Cases/Common/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:41:11 - [TEST_CASE][PASSED] - Test Cases/Common/Login: Test Cases/Common/Login
+
+2018-10-29 17:41:11 - [TEST_STEP][PASSED] - phpTravels.Common.Login: phpTravels.Common.Login is PASSED
+
+2018-10-29 17:41:12 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/login/input_email'
+
+2018-10-29 17:41:12 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/login/input_password'
+
+2018-10-29 17:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/common/login/button_Login' is clicked on
+
+2018-10-29 17:41:13 - [MESSAGE][PASSED] - phpTravels.Common.Login is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/AddAdmin" classname="Test Cases/User/AddAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:41:13 - [TEST_CASE][PASSED] - Test Cases/User/AddAdmin: Test Cases/User/AddAdmin
+
+2018-10-29 17:41:13 - [TEST_STEP][PASSED] - phpTravels.Admin.NavigateToAdminPage: phpTravels.Admin.NavigateToAdminPage is PASSED
+
+2018-10-29 17:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/dashboard/a_account' is clicked on
+
+2018-10-29 17:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/dashboard/a_admin' is clicked on
+
+2018-10-29 17:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/action/button_add' is clicked on
+
+2018-10-29 17:41:23 - [MESSAGE][PASSED] - phpTravels.Admin.NavigateToAdminPage is PASSED
+
+2018-10-29 17:41:23 - [TEST_STEP][PASSED] - phpTravels.Admin.SetAdminDetails: phpTravels.Admin.SetAdminDetails is PASSED
+
+2018-10-29 17:41:24 - [MESSAGE][PASSED] - Text 'Renu' is set on object 'Object Repository/user/admin/fields/input_first_name'
+
+2018-10-29 17:41:25 - [MESSAGE][PASSED] - Text 'Rahul' is set on object 'Object Repository/user/admin/fields/input_last_name'
+
+2018-10-29 17:41:26 - [MESSAGE][PASSED] - Text 'tr@test.com' is set on object 'Object Repository/user/admin/fields/input_email_address'
+
+2018-10-29 17:41:26 - [MESSAGE][PASSED] - Text 'inapp2.0' is set on object 'Object Repository/user/admin/fields/input_password'
+
+2018-10-29 17:41:26 - [MESSAGE][PASSED] - Text '8891767706' is set on object 'Object Repository/user/admin/fields/input_mobile_number'
+
+2018-10-29 17:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country_control' is clicked on
+
+2018-10-29 17:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country_search' is clicked on
+
+2018-10-29 17:41:27 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/user/admin/fields/autocomplete_country_search'
+
+2018-10-29 17:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country_select' is clicked on
+
+2018-10-29 17:41:28 - [MESSAGE][PASSED] - Text 'Thannikattethu' is set on object 'Object Repository/user/admin/fields/input_address_line1'
+
+2018-10-29 17:41:29 - [MESSAGE][PASSED] - Text 'Kadapra-Mannar' is set on object 'Object Repository/user/admin/fields/input_address_line2'
+
+2018-10-29 17:41:29 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/user/admin/fields/select_status'
+
+2018-10-29 17:41:29 - [MESSAGE][PASSED] - phpTravels.Admin.SetAdminDetails is PASSED
+
+2018-10-29 17:41:29 - [TEST_STEP][PASSED] - phpTravels.Admin.ManageAccessDetails: phpTravels.Admin.ManageAccessDetails is PASSED
+
+2018-10-29 17:41:29 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-29 17:41:30 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-29 17:41:30 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-29 17:41:30 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-29 17:41:30 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-29 17:41:31 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-29 17:41:31 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-29 17:41:31 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-29 17:41:31 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-29 17:41:31 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-29 17:41:32 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-29 17:41:32 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-29 17:41:32 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-10-29 17:41:32 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-10-29 17:41:33 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-10-29 17:41:33 - [MESSAGE][PASSED] - phpTravels.Admin.ManageAccessDetails is PASSED
+
+2018-10-29 17:41:33 - [TEST_STEP][PASSED] - phpTravels.Admin.SaveDetails: phpTravels.Admin.SaveDetails is PASSED
+
+2018-10-29 17:41:38 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/action/button_submit' is clicked on
+
+2018-10-29 17:41:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-29 17:42:02 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/created_admin' is present
+
+2018-10-29 17:42:02 - [MESSAGE][PASSED] - phpTravels.Admin.SaveDetails is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LogOut" classname="Test Cases/Common/LogOut" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:42:02 - [TEST_CASE][PASSED] - Test Cases/Common/LogOut: Test Cases/Common/LogOut
+
+2018-10-29 17:42:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/common/logout/button_Logout' is clicked on
+
+2018-10-29 17:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/common/logout/button_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LoginFromDatabase" classname="Test Cases/Common/LoginFromDatabase" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'tr@test.com' of object 'Object Repository/common/login/input_email' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @name = 'email' and @placeholder = 'Email']})"/>
+         <system-out><![CDATA[2018-10-29 17:42:03 - [TEST_CASE][FAILED] - Test Cases/Common/LoginFromDatabase: Test Cases/Common/LoginFromDatabase FAILED because (of) Unable to set text 'tr@test.com' of object 'Object Repository/common/login/input_email' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @name = 'email' and @placeholder = 'Email']})
+
+2018-10-29 17:42:03 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(userDetail): Reading database data with query 'SELECT * FROM katalon_renu_16_10_2018.user'
+
+2018-10-29 17:42:03 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(Email.ordinal(), userIndex): null
+
+2018-10-29 17:42:03 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(Password.ordinal(), userIndex): null
+
+2018-10-29 17:42:03 - [TEST_STEP][FAILED] - phpTravels.Common.Login: Unable to set text 'tr@test.com' of object 'Object Repository/common/login/input_email' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @name = 'email' and @placeholder = 'Email']})
+
+2018-10-29 17:42:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-29 17:42:05 - [MESSAGE][FAILED] - Unable to set text 'tr@test.com' of object 'Object Repository/common/login/input_email' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @name = 'email' and @placeholder = 'Email']})
+
+2018-10-29 17:42:05 - [MESSAGE][FAILED] - Unable to set text 'tr@test.com' of object 'Object Repository/common/login/input_email' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @name = 'email' and @placeholder = 'Email']})]]></system-out>
+         <system-err><![CDATA[2018-10-29 17:42:03 - [TEST_CASE][FAILED] - Test Cases/Common/LoginFromDatabase: Test Cases/Common/LoginFromDatabase FAILED because (of) Unable to set text 'tr@test.com' of object 'Object Repository/common/login/input_email' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @name = 'email' and @placeholder = 'Email']})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tour/BookTour" classname="Test Cases/Tour/BookTour" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/tour/navigation/a_tour' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//a[@href = '#Tours' and (text() = 'Tours ' or . = 'Tours ')]})"/>
+         <system-out><![CDATA[2018-10-29 17:42:05 - [TEST_CASE][FAILED] - Test Cases/Tour/BookTour: Test Cases/Tour/BookTour FAILED because (of) Unable to click on object 'Object Repository/tour/navigation/a_tour' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//a[@href = '#Tours' and (text() = 'Tours ' or . = 'Tours ')]})
+
+2018-10-29 17:42:06 - [TEST_STEP][FAILED] - phpTravels.Tour.NavigateToTourPage: Unable to click on object 'Object Repository/tour/navigation/a_tour' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//a[@href = '#Tours' and (text() = 'Tours ' or . = 'Tours ')]})
+
+2018-10-29 17:42:06 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-29 17:42:06 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/tour/navigation/a_tour' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//a[@href = '#Tours' and (text() = 'Tours ' or . = 'Tours ')]})
+
+2018-10-29 17:42:06 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/tour/navigation/a_tour' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//a[@href = '#Tours' and (text() = 'Tours ' or . = 'Tours ')]})]]></system-out>
+         <system-err><![CDATA[2018-10-29 17:42:05 - [TEST_CASE][FAILED] - Test Cases/Tour/BookTour: Test Cases/Tour/BookTour FAILED because (of) Unable to click on object 'Object Repository/tour/navigation/a_tour' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//a[@href = '#Tours' and (text() = 'Tours ' or . = 'Tours ')]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/AddSupplier" classname="Test Cases/User/AddSupplier" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/user/supplier/navigation/a_supplier' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb)"/>
+         <system-out><![CDATA[2018-10-29 17:42:06 - [TEST_CASE][FAILED] - Test Cases/User/AddSupplier: Test Cases/User/AddSupplier FAILED because (of) Unable to click on object 'Object Repository/user/supplier/navigation/a_supplier' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb)
+
+2018-10-29 17:42:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/navigation/a_account' is clicked on
+
+2018-10-29 17:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/navigation/a_account' is clicked on
+
+2018-10-29 17:42:07 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/user/supplier/navigation/a_supplier' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb)
+
+2018-10-29 17:42:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/user/supplier/navigation/a_supplier' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb)
+[[ATTACHMENT|D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181029_174056\\1540815129165.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-29 17:42:06 - [TEST_CASE][FAILED] - Test Cases/User/AddSupplier: Test Cases/User/AddSupplier FAILED because (of) Unable to click on object 'Object Repository/user/supplier/navigation/a_supplier' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LogOutNewAdmin" classname="Test Cases/Common/LogOutNewAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-29 17:42:09 - [TEST_CASE][PASSED] - Test Cases/Common/LogOutNewAdmin: Test Cases/Common/LogOutNewAdmin
+
+2018-10-29 17:42:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/common/logout/button_Logout' is clicked on
+
+2018-10-29 17:42:11 - [MESSAGE][PASSED] - Object: 'Object Repository/common/logout/button_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-29 17:41:00 - [TEST_SUITE][FAILED] - ManageOperationForNewAdmin: Test Cases/Common/LoginFromDatabase FAILED because (of) Unable to set text 'tr@test.com' of object 'Object Repository/common/login/input_email' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @name = 'email' and @placeholder = 'Email']})]]></system-out>
+      <system-err><![CDATA[2018-10-29 17:41:00 - [TEST_SUITE][FAILED] - ManageOperationForNewAdmin: Test Cases/Common/LoginFromDatabase FAILED because (of) Unable to set text 'tr@test.com' of object 'Object Repository/common/login/input_email' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure you want to delete?}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 93eab69ed9a9f45c1b617a14cb249fcb
+*** Element info: {Using=xpath, value=//input[@type = 'text' and @name = 'email' and @placeholder = 'Email']})]]></system-err>
+   </testsuite>
+</testsuites>

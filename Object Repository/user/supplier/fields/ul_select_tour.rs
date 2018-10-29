@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//LABEL[@class='required'][text()='Assign Tours']/..//UL[@class='select2-choices']</value>
+         <value>.//*[contains(text(), 'Assign Tours')]//following-sibling::div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ManageOperationForNewAdmin,Chrome 70.0.3538.77,,2018-10-29 14:17:31,2018-10-29 14:19:10,1m - 38.520s,PASSED
+,,,,,,
+Test Cases/Common/NavigateToUrl,Chrome 70.0.3538.77,,2018-10-29 14:17:32,2018-10-29 14:17:41,9.167s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-10-29 14:17:33,2018-10-29 14:17:37,4.167s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-10-29 14:17:37,2018-10-29 14:17:40,3.306s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-10-29 14:17:40,2018-10-29 14:17:41,1.212s,PASSED
+,,,,,,
+Test Cases/Common/Login,Chrome 70.0.3538.77,,2018-10-29 14:17:41,2018-10-29 14:17:43,1.868s,PASSED
+phpTravels.Common.Login,Chrome 70.0.3538.77,,2018-10-29 14:17:42,2018-10-29 14:17:43,1.603s,PASSED
+,,,,,,
+Test Cases/User/AddAdmin,Chrome 70.0.3538.77,,2018-10-29 14:17:43,2018-10-29 14:18:17,33.751s,PASSED
+phpTravels.Admin.NavigateToAdminPage,Chrome 70.0.3538.77,,2018-10-29 14:17:44,2018-10-29 14:17:55,10.966s,PASSED
+phpTravels.Admin.SetAdminDetails,Chrome 70.0.3538.77,,2018-10-29 14:17:55,2018-10-29 14:18:00,5.734s,PASSED
+phpTravels.Admin.ManageAccessDetails,Chrome 70.0.3538.77,,2018-10-29 14:18:00,2018-10-29 14:18:04,3.409s,PASSED
+phpTravels.Admin.SaveDetails,Chrome 70.0.3538.77,,2018-10-29 14:18:04,2018-10-29 14:18:17,13.178s,PASSED
+,,,,,,
+Test Cases/Common/LogOut,Chrome 70.0.3538.77,,2018-10-29 14:18:17,2018-10-29 14:18:19,1.934s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-29 14:18:17,2018-10-29 14:18:19,1.734s,PASSED
+,,,,,,
+Test Cases/Common/LoginFromDatabase,Chrome 70.0.3538.77,,2018-10-29 14:18:19,2018-10-29 14:18:20,0.963s,PASSED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(userDetail),Chrome 70.0.3538.77,,2018-10-29 14:18:19,2018-10-29 14:18:19,0.089s,PASSED
+"Statement - userName = dbdata.getValue(Email.ordinal(), userIndex)",Chrome 70.0.3538.77,,2018-10-29 14:18:19,2018-10-29 14:18:19,0.001s,PASSED
+"Statement - password = dbdata.getValue(Password.ordinal(), userIndex)",Chrome 70.0.3538.77,,2018-10-29 14:18:19,2018-10-29 14:18:19,0.001s,PASSED
+phpTravels.Common.Login,Chrome 70.0.3538.77,,2018-10-29 14:18:19,2018-10-29 14:18:20,0.645s,PASSED
+,,,,,,
+Test Cases/Tour/BookTour,Chrome 70.0.3538.77,,2018-10-29 14:18:20,2018-10-29 14:18:50,30.126s,PASSED
+phpTravels.Tour.NavigateToTourPage,Chrome 70.0.3538.77,,2018-10-29 14:18:20,2018-10-29 14:18:28,7.844s,PASSED
+phpTravels.Tour.SetTourDetails,Chrome 70.0.3538.77,,2018-10-29 14:18:28,2018-10-29 14:18:36,7.665s,PASSED
+phpTravels.Tour.SetTourInclusions,Chrome 70.0.3538.77,,2018-10-29 14:18:36,2018-10-29 14:18:43,6.919s,PASSED
+phpTravels.Tour.SetTourExclusions,Chrome 70.0.3538.77,,2018-10-29 14:18:43,2018-10-29 14:18:45,2.035s,PASSED
+phpTravels.Tour.SaveTour,Chrome 70.0.3538.77,,2018-10-29 14:18:45,2018-10-29 14:18:50,5.461s,PASSED
+,,,,,,
+Test Cases/User/AddSupplier,Chrome 70.0.3538.77,,2018-10-29 14:18:50,2018-10-29 14:19:06,16.311s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-29 14:18:51,2018-10-29 14:18:51,0.641s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-29 14:18:51,2018-10-29 14:18:53,1.873s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-29 14:18:53,2018-10-29 14:18:55,1.912s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-29 14:18:55,2018-10-29 14:18:55,0.026s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-29 14:18:55,2018-10-29 14:18:56,0.267s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-29 14:18:56,2018-10-29 14:18:56,0.254s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-29 14:18:56,2018-10-29 14:18:56,0.400s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-29 14:18:56,2018-10-29 14:18:57,0.337s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-29 14:18:57,2018-10-29 14:18:57,0.340s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-29 14:18:57,2018-10-29 14:18:57,0.484s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-29 14:18:57,2018-10-29 14:18:58,0.496s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-29 14:18:58,2018-10-29 14:18:58,0.223s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-29 14:18:58,2018-10-29 14:18:59,0.484s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-29 14:18:59,2018-10-29 14:18:59,0.466s,PASSED
+selectOptionByValue,Chrome 70.0.3538.77,,2018-10-29 14:18:59,2018-10-29 14:19:00,0.810s,PASSED
+setText,Chrome 70.0.3538.77,,2018-10-29 14:19:00,2018-10-29 14:19:00,0.376s,PASSED
+"Statement - For ([i = 1, i <= 5, (i++)])",Chrome 70.0.3538.77,,2018-10-29 14:19:00,2018-10-29 14:19:04,3.588s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-29 14:19:04,2018-10-29 14:19:06,2.497s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-29 14:19:06,2018-10-29 14:19:06,0.017s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-29 14:19:06,2018-10-29 14:19:06,0.038s,PASSED
+"Statement - println(""Admin added successfully"")",Chrome 70.0.3538.77,,2018-10-29 14:19:06,2018-10-29 14:19:06,0.003s,PASSED
+,,,,,,
+Test Cases/Common/LogOutNewAdmin,Chrome 70.0.3538.77,,2018-10-29 14:19:06,2018-10-29 14:19:09,2.513s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-29 14:19:07,2018-10-29 14:19:09,2.256s,PASSED

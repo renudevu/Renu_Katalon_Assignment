@@ -4,7 +4,7 @@
    <name>ManageOperationForNewAdmin</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-28T22:59:29</lastRun>
+   <lastRun>2018-10-29T23:36:03</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -157,6 +157,18 @@
          <value>CanDelete</value>
          <variableId>2707d8d6-bd2f-49fd-a3c9-6cdd11ccf7b6</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2c21d399-722d-403a-a680-8b56d37344cd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User/DeleteSupplier</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>77542e90-af50-43ff-a733-359ddbc26280</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User/DeleteAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dc357ef2-d3f8-439c-981d-da58b1c3718b</guid>

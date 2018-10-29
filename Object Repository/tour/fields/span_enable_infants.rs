@@ -7,13 +7,41 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[@id = 'infantbtn' and (text() = 'Enable' or . = 'Enable')]</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//INPUT[@type='text'])[8]/../../..//SPAN</value>
+         <value>//span[@id = 'infantbtn' and (text() = 'Enable' or . = 'Enable')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>infantbtn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enable</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id (&quot;infantbtn&quot;)</value>
+   </webElementProperties>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//INPUT[@id='s2id_autogen5']</value>
+         <value>.//*[@id='select2-drop']/ul/li[1]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

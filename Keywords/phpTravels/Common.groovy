@@ -46,11 +46,6 @@ class Common {
 
 	public static int userIndex=1;
 
-	/**
-	 * Login
-	 * @param to Katalon userName
-	 * @param to Katalon password
-	 */
 	@Keyword
 	def Login(String userName,String password) {
 		WebUI.setText(findTestObject('common/login/input_email'), userName)

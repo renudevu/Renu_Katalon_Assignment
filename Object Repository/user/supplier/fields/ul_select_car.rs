@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//UL[@class='select2-choices'])[3]</value>
+         <value>.//*[contains(text(), 'Assign Cars')]//following-sibling::div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
