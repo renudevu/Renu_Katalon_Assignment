@@ -106,9 +106,13 @@ public class Admin {
 	}
 
 	def DeleteAdmin(){
-		WebUI.click(findTestObject('user/admin/action/checkbox_admin'))
-		WebUI.click(findTestObject('user/admin/action/button_delete'))
-		WebUI.acceptAlert()
-		println("Admin deleted successfully")
+		try{
+			WebUI.click(findTestObject('user/admin/action/checkbox_admin'))
+			WebUI.click(findTestObject('user/admin/action/button_delete'))
+			WebUI.acceptAlert()
+			WebUI.delay(6)
+			println("Admin deleted successfully")
+		}
+		catch(Exception ex){}
 	}
 }

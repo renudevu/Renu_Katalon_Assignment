@@ -19,7 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+try{	
 WebUI.click(findTestObject('user/supplier/action/checkbox_supplier'))
 WebUI.click(findTestObject('user/supplier/action/button_delete'))
 WebUI.acceptAlert()
+WebUI.delay(6)
 println("Supplier deleted successfully")
+}
+catch(Exception ex){}

@@ -3,7 +3,6 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory
@@ -18,28 +17,21 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
-
 import internal.GlobalVariable
-
 import MobileBuiltInKeywords as Mobile
 import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
-
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.By
-
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 import com.kms.katalon.core.webui.driver.DriverFactory
-
 import com.kms.katalon.core.testobject.RequestObject
 import com.kms.katalon.core.testobject.ResponseObject
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObjectProperty
-
 import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
 import com.kms.katalon.core.util.KeywordUtil
-
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 public enum Travel {
@@ -67,7 +59,7 @@ class Tour {
 	@Keyword
 	def NavigateToTourPage(){
 		WebUI.click(findTestObject('tour/navigation/a_tour'))
-		WebUI.click(findTestObject('tour/navigation/a_Add'))
+		WebUI.click(findTestObject('tour/navigation/a_add'))
 	}
 
 	@Keyword
@@ -81,11 +73,11 @@ class Tour {
 		WebUI.switchToDefaultContent()
 		WebUI.setText(findTestObject('tour/fields/input_adult_count'), data.internallyGetValue(Travel.AdultCount.ordinal(), tourIndex))
 		WebUI.setText(findTestObject('tour/fields/input_adult_price'), data.internallyGetValue(Travel.AdultPrice.ordinal(), tourIndex))
+		WebUI.scrollToPosition(500,500)
 		WebUI.click(findTestObject('tour/fields/span_enable_child'))
 		WebUI.setText(findTestObject('tour/fields/input_child_count'), data.internallyGetValue(Travel.ChildCount.ordinal(), tourIndex))
 		WebUI.setText(findTestObject('tour/fields/input_child_price'), data.internallyGetValue(Travel.ChildPrice.ordinal(), tourIndex))
-
-		WebUI.click(findTestObject('tour/fields/span_enable_infants'))
+		WebUI.click(findTestObject('tour/fields/span_enable_infant'))
 		WebUI.setText(findTestObject('tour/fields/input_infant_count'), data.internallyGetValue(Travel.InfantCount.ordinal(), tourIndex))
 		WebUI.setText(findTestObject('tour/fields/input_infant_price'), data.internallyGetValue(Travel.InfantPrice.ordinal(), tourIndex))
 		WebUI.selectOptionByValue(findTestObject('tour/fields/select_option'), data.internallyGetValue(Travel.Star.ordinal(), tourIndex), true)

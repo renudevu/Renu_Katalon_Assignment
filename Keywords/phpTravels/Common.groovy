@@ -50,6 +50,6 @@ class Common {
 	def Login(String userName,String password) {
 		WebUI.setText(findTestObject('common/login/input_email'), userName)
 		WebUI.setText(findTestObject('common/login/input_password'), password)
-		WebUI.click(findTestObject('common/login/button_Login'))
+		WebUI.click(findTestObject('common/login/button_login'))
 	}
 }

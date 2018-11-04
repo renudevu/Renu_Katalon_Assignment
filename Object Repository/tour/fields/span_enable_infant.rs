@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Add</name>
+   <name>span_enable_infant</name>
    <tag></tag>
-   <elementGuidId>34fd52d6-4fd1-4fcd-aeca-fc3301be5490</elementGuidId>
+   <elementGuidId>bd5f3377-fc96-4fd8-8f5f-4e21184bb2ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id = 'infantbtn' and (text() = 'Enable' or . = 'Enable')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,27 +20,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>https://www.phptravels.net/admin/tours/add</value>
+      <value>infantbtn</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add New</value>
+      <value>Enable</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Tours&quot;)/li[2]/a[1]</value>
+      <value>id (&quot;infantbtn&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

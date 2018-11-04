@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ManageOperationForNewAdmin,Firefox 47.0,,2018-10-30 08:52:44,2018-10-30 08:55:09,2m - 24.939s,PASSED
+,,,,,,
+Test Cases/Common/NavigateToUrl,Firefox 47.0,,2018-10-30 08:52:45,2018-10-30 08:53:01,15.886s,PASSED
+openBrowser,Firefox 47.0,,2018-10-30 08:52:45,2018-10-30 08:52:58,12.836s,PASSED
+navigateToUrl,Firefox 47.0,,2018-10-30 08:52:58,2018-10-30 08:53:00,2.486s,PASSED
+maximizeWindow,Firefox 47.0,,2018-10-30 08:53:00,2018-10-30 08:53:01,0.129s,PASSED
+,,,,,,
+Test Cases/Common/Login,Firefox 47.0,,2018-10-30 08:53:01,2018-10-30 08:53:03,2.348s,PASSED
+phpTravels.Common.Login,Firefox 47.0,,2018-10-30 08:53:01,2018-10-30 08:53:03,2.082s,PASSED
+,,,,,,
+Test Cases/User/AddAdmin,Firefox 47.0,,2018-10-30 08:53:03,2018-10-30 08:53:30,26.661s,PASSED
+phpTravels.Admin.NavigateToAdminPage,Firefox 47.0,,2018-10-30 08:53:03,2018-10-30 08:53:08,4.967s,PASSED
+phpTravels.Admin.SetAdminDetails,Firefox 47.0,,2018-10-30 08:53:08,2018-10-30 08:53:20,11.381s,PASSED
+phpTravels.Admin.ManageAccessDetails,Firefox 47.0,,2018-10-30 08:53:20,2018-10-30 08:53:23,3.754s,PASSED
+phpTravels.Admin.SaveDetails,Firefox 47.0,,2018-10-30 08:53:23,2018-10-30 08:53:30,6.190s,PASSED
+,,,,,,
+Test Cases/Common/LogOut,Firefox 47.0,,2018-10-30 08:53:30,2018-10-30 08:53:30,0.571s,PASSED
+click,Firefox 47.0,,2018-10-30 08:53:30,2018-10-30 08:53:30,0.207s,PASSED
+,,,,,,
+Test Cases/Common/LoginFromDatabase,Firefox 47.0,,2018-10-30 08:53:30,2018-10-30 08:53:33,2.610s,PASSED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(userDetail),Firefox 47.0,,2018-10-30 08:53:31,2018-10-30 08:53:31,0.070s,PASSED
+"Statement - userName = dbdata.getValue(Email.ordinal(), userIndex)",Firefox 47.0,,2018-10-30 08:53:31,2018-10-30 08:53:31,0.001s,PASSED
+"Statement - password = dbdata.getValue(Password.ordinal(), userIndex)",Firefox 47.0,,2018-10-30 08:53:31,2018-10-30 08:53:31,0.001s,PASSED
+phpTravels.Common.Login,Firefox 47.0,,2018-10-30 08:53:31,2018-10-30 08:53:33,2.217s,PASSED
+,,,,,,
+Test Cases/Tour/BookTour,Firefox 47.0,,2018-10-30 08:53:33,2018-10-30 08:54:23,49.725s,PASSED
+phpTravels.Tour.NavigateToTourPage,Firefox 47.0,,2018-10-30 08:53:33,2018-10-30 08:53:40,6.835s,PASSED
+phpTravels.Tour.SetTourDetails,Firefox 47.0,,2018-10-30 08:53:40,2018-10-30 08:54:04,24.037s,PASSED
+phpTravels.Tour.SetTourInclusions,Firefox 47.0,,2018-10-30 08:54:04,2018-10-30 08:54:14,9.641s,PASSED
+phpTravels.Tour.SetTourExclusions,Firefox 47.0,,2018-10-30 08:54:14,2018-10-30 08:54:16,2.319s,PASSED
+phpTravels.Tour.SaveTour,Firefox 47.0,,2018-10-30 08:54:16,2018-10-30 08:54:23,6.565s,PASSED
+,,,,,,
+Test Cases/User/AddSupplier,Firefox 47.0,,2018-10-30 08:54:23,2018-10-30 08:54:51,28.597s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:23,2018-10-30 08:54:24,0.164s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:24,2018-10-30 08:54:24,0.400s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:24,2018-10-30 08:54:32,7.674s,PASSED
+waitForPageLoad,Firefox 47.0,,2018-10-30 08:54:32,2018-10-30 08:54:36,4.133s,PASSED
+setText,Firefox 47.0,,2018-10-30 08:54:36,2018-10-30 08:54:36,0.359s,PASSED
+setText,Firefox 47.0,,2018-10-30 08:54:36,2018-10-30 08:54:36,0.202s,PASSED
+setText,Firefox 47.0,,2018-10-30 08:54:36,2018-10-30 08:54:37,0.215s,PASSED
+setText,Firefox 47.0,,2018-10-30 08:54:37,2018-10-30 08:54:37,0.238s,PASSED
+setText,Firefox 47.0,,2018-10-30 08:54:37,2018-10-30 08:54:37,0.209s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:37,2018-10-30 08:54:38,0.546s,PASSED
+setText,Firefox 47.0,,2018-10-30 08:54:38,2018-10-30 08:54:38,0.433s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:38,2018-10-30 08:54:38,0.164s,PASSED
+setText,Firefox 47.0,,2018-10-30 08:54:38,2018-10-30 08:54:38,0.194s,PASSED
+setText,Firefox 47.0,,2018-10-30 08:54:38,2018-10-30 08:54:39,0.234s,PASSED
+selectOptionByValue,Firefox 47.0,,2018-10-30 08:54:39,2018-10-30 08:54:39,0.579s,PASSED
+setText,Firefox 47.0,,2018-10-30 08:54:39,2018-10-30 08:54:39,0.187s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:39,2018-10-30 08:54:40,0.193s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:40,2018-10-30 08:54:40,0.179s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:40,2018-10-30 08:54:40,0.198s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:40,2018-10-30 08:54:40,0.176s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:40,2018-10-30 08:54:40,0.214s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:40,2018-10-30 08:54:40,0.182s,PASSED
+"Statement - For ([i = 1, i <= 5, (i++)])",Firefox 47.0,,2018-10-30 08:54:40,2018-10-30 08:54:44,3.768s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:44,2018-10-30 08:54:48,3.841s,PASSED
+waitForPageLoad,Firefox 47.0,,2018-10-30 08:54:48,2018-10-30 08:54:51,3.044s,PASSED
+verifyElementPresent,Firefox 47.0,,2018-10-30 08:54:51,2018-10-30 08:54:51,0.050s,PASSED
+"Statement - println(""Admin added successfully"")",Firefox 47.0,,2018-10-30 08:54:51,2018-10-30 08:54:51,0.031s,PASSED
+,,,,,,
+Test Cases/User/DeleteSupplier,Firefox 47.0,,2018-10-30 08:54:51,2018-10-30 08:54:52,0.789s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:51,2018-10-30 08:54:52,0.197s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:52,2018-10-30 08:54:52,0.281s,PASSED
+acceptAlert,Firefox 47.0,,2018-10-30 08:54:52,2018-10-30 08:54:52,0.169s,PASSED
+"Statement - println(""Supplier deleted successfully"")",Firefox 47.0,,2018-10-30 08:54:52,2018-10-30 08:54:52,0.001s,PASSED
+,,,,,,
+Test Cases/User/DeleteAdmin,Firefox 47.0,,2018-10-30 08:54:52,2018-10-30 08:55:08,15.527s,PASSED
+click,Firefox 47.0,,2018-10-30 08:54:53,2018-10-30 08:54:53,0.305s,PASSED
+phpTravels.Common.Login,Firefox 47.0,,2018-10-30 08:54:53,2018-10-30 08:54:55,2.548s,PASSED
+phpTravels.Admin.NavigateToAdminPage,Firefox 47.0,,2018-10-30 08:54:55,2018-10-30 08:55:02,6.669s,PASSED
+phpTravels.Admin.DeleteAdmin,Firefox 47.0,,2018-10-30 08:55:02,2018-10-30 08:55:08,5.416s,PASSED
+,,,,,,
+Test Cases/Common/LogOutNewAdmin,Firefox 47.0,,2018-10-30 08:55:08,2018-10-30 08:55:08,0.760s,PASSED
+click,Firefox 47.0,,2018-10-30 08:55:08,2018-10-30 08:55:08,0.528s,PASSED

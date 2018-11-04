@@ -59,6 +59,6 @@ for(int i=1;i<=5;i++) {
 WebUI.click(findTestObject('user/supplier/action/button_submit'))
 WebUI.waitForPageLoad(50, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementPresent(findTestObject('user/supplier/fields/created_supplier'), 30)
-println("Admin added successfully")
+println("Supplier added successfully")
 
 

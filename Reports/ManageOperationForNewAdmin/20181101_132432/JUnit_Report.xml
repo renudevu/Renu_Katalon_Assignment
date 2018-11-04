@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ManageOperationForNewAdmin" time="103" tests="10" failures="0" errors="0">
+   <testsuite name="ManageOperationForNewAdmin" tests="10" failures="0" errors="0" time="103" timestamp="2018-11-01 13:24:35" hostname="Renu - Renu-PC" id="Test Suites/ManageOperationForNewAdmin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181101_132432"/>
+         <property name="logFiles" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181101_132432\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181101_132432\\1541058959674.png"/>
+         <property name="hostName" value="Renu - Renu-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+         <property name="hostAddress" value="192.168.1.75"/>
+         <property name="sessionId" value="31e6bee05245c3fee45f2472632e062c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/NavigateToUrl" classname="Test Cases/Common/NavigateToUrl" status="PASSED">
+         <system-out><![CDATA[2018-11-01 13:24:36 - [TEST_CASE][PASSED] - Test Cases/Common/NavigateToUrl: Test Cases/Common/NavigateToUrl
+
+2018-11-01 13:24:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-01 13:24:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-01 13:24:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-11-01 13:24:43 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-11-01 13:24:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-01 13:24:45 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/Login" classname="Test Cases/Common/Login" status="PASSED">
+         <system-out><![CDATA[2018-11-01 13:24:45 - [TEST_CASE][PASSED] - Test Cases/Common/Login: Test Cases/Common/Login
+
+2018-11-01 13:24:45 - [TEST_STEP][PASSED] - phpTravels.Common.Login: phpTravels.Common.Login is PASSED
+
+2018-11-01 13:24:46 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/login/input_email'
+
+2018-11-01 13:24:46 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/login/input_password'
+
+2018-11-01 13:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/common/login/button_Login' is clicked on
+
+2018-11-01 13:24:47 - [MESSAGE][PASSED] - phpTravels.Common.Login is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/AddAdmin" classname="Test Cases/User/AddAdmin" status="PASSED">
+         <system-out><![CDATA[2018-11-01 13:24:47 - [TEST_CASE][PASSED] - Test Cases/User/AddAdmin: Test Cases/User/AddAdmin
+
+2018-11-01 13:24:47 - [TEST_STEP][PASSED] - phpTravels.Admin.NavigateToAdminPage: phpTravels.Admin.NavigateToAdminPage is PASSED
+
+2018-11-01 13:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/dashboard/a_account' is clicked on
+
+2018-11-01 13:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/dashboard/a_admin' is clicked on
+
+2018-11-01 13:24:53 - [MESSAGE][PASSED] - phpTravels.Admin.NavigateToAdminPage is PASSED
+
+2018-11-01 13:24:53 - [TEST_STEP][PASSED] - phpTravels.Admin.SetAdminDetails: phpTravels.Admin.SetAdminDetails is PASSED
+
+2018-11-01 13:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/action/button_add' is clicked on
+
+2018-11-01 13:24:57 - [MESSAGE][PASSED] - Text 'Renu' is set on object 'Object Repository/user/admin/fields/input_first_name'
+
+2018-11-01 13:24:57 - [MESSAGE][PASSED] - Text 'Rahul' is set on object 'Object Repository/user/admin/fields/input_last_name'
+
+2018-11-01 13:24:58 - [MESSAGE][PASSED] - Text 'tr@test.com' is set on object 'Object Repository/user/admin/fields/input_email_address'
+
+2018-11-01 13:24:58 - [MESSAGE][PASSED] - Text 'inapp2.0' is set on object 'Object Repository/user/admin/fields/input_password'
+
+2018-11-01 13:24:58 - [MESSAGE][PASSED] - Text '8891767706' is set on object 'Object Repository/user/admin/fields/input_mobile_number'
+
+2018-11-01 13:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country_control' is clicked on
+
+2018-11-01 13:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country_search' is clicked on
+
+2018-11-01 13:24:59 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/user/admin/fields/autocomplete_country_search'
+
+2018-11-01 13:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/fields/autocomplete_country_select' is clicked on
+
+2018-11-01 13:25:00 - [MESSAGE][PASSED] - Text 'Thannikattethu' is set on object 'Object Repository/user/admin/fields/input_address_line1'
+
+2018-11-01 13:25:00 - [MESSAGE][PASSED] - Text 'Kadapra-Mannar' is set on object 'Object Repository/user/admin/fields/input_address_line2'
+
+2018-11-01 13:25:00 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/user/admin/fields/select_status'
+
+2018-11-01 13:25:00 - [MESSAGE][PASSED] - phpTravels.Admin.SetAdminDetails is PASSED
+
+2018-11-01 13:25:00 - [TEST_STEP][PASSED] - phpTravels.Admin.ManageAccessDetails: phpTravels.Admin.ManageAccessDetails is PASSED
+
+2018-11-01 13:25:01 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:01 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:01 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:01 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:02 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:02 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:02 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:02 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:02 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:03 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:03 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:03 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:03 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:03 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:04 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:04 - [MESSAGE][PASSED] - phpTravels.Admin.ManageAccessDetails is PASSED
+
+2018-11-01 13:25:04 - [TEST_STEP][PASSED] - phpTravels.Admin.SaveDetails: phpTravels.Admin.SaveDetails is PASSED
+
+2018-11-01 13:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/action/button_submit' is clicked on
+
+2018-11-01 13:25:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-01 13:25:06 - [MESSAGE][PASSED] - Object 'Object Repository/user/admin/fields/created_admin' is present
+
+2018-11-01 13:25:06 - [MESSAGE][PASSED] - phpTravels.Admin.SaveDetails is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LogOut" classname="Test Cases/Common/LogOut" status="PASSED">
+         <system-out><![CDATA[2018-11-01 13:25:06 - [TEST_CASE][PASSED] - Test Cases/Common/LogOut: Test Cases/Common/LogOut
+
+2018-11-01 13:25:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/common/logout/button_Logout' is clicked on
+
+2018-11-01 13:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/common/logout/button_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LoginFromDatabase" classname="Test Cases/Common/LoginFromDatabase" status="PASSED">
+         <system-out><![CDATA[2018-11-01 13:25:08 - [TEST_CASE][PASSED] - Test Cases/Common/LoginFromDatabase: Test Cases/Common/LoginFromDatabase
+
+2018-11-01 13:25:08 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(userDetail): Reading database data with query 'SELECT * FROM katalon_renu_16_10_2018.user'
+
+2018-11-01 13:25:08 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(Email.ordinal(), userIndex): null
+
+2018-11-01 13:25:08 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(Password.ordinal(), userIndex): null
+
+2018-11-01 13:25:08 - [TEST_STEP][PASSED] - phpTravels.Common.Login: phpTravels.Common.Login is PASSED
+
+2018-11-01 13:25:08 - [MESSAGE][PASSED] - Text 'tr@test.com' is set on object 'Object Repository/common/login/input_email'
+
+2018-11-01 13:25:09 - [MESSAGE][PASSED] - Text 'inapp2.0' is set on object 'Object Repository/common/login/input_password'
+
+2018-11-01 13:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/common/login/button_Login' is clicked on
+
+2018-11-01 13:25:09 - [MESSAGE][PASSED] - phpTravels.Common.Login is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tour/BookTour" classname="Test Cases/Tour/BookTour" status="PASSED">
+         <system-out><![CDATA[2018-11-01 13:25:09 - [TEST_CASE][PASSED] - Test Cases/Tour/BookTour: Test Cases/Tour/BookTour
+
+2018-11-01 13:25:09 - [TEST_STEP][PASSED] - phpTravels.Tour.NavigateToTourPage: phpTravels.Tour.NavigateToTourPage is PASSED
+
+2018-11-01 13:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/navigation/a_tour' is clicked on
+
+2018-11-01 13:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/navigation/a_Add' is clicked on
+
+2018-11-01 13:25:16 - [MESSAGE][PASSED] - phpTravels.Tour.NavigateToTourPage is PASSED
+
+2018-11-01 13:25:16 - [TEST_STEP][PASSED] - phpTravels.Tour.SetTourDetails: phpTravels.Tour.SetTourDetails is PASSED
+
+2018-11-01 13:25:17 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/tour/fields/select_status'  using regular expression
+
+2018-11-01 13:25:18 - [MESSAGE][PASSED] - Text 'Alappuzha Tour' is set on object 'Object Repository/tour/fields/input_name'
+
+2018-11-01 13:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/iframe_body' is clicked on
+
+2018-11-01 13:25:19 - [MESSAGE][PASSED] - Text 'Vacation Holiday Trip' is set on object 'Object Repository/tour/fields/iframe_body'
+
+2018-11-01 13:25:19 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/tour/fields/input_adult_count'
+
+2018-11-01 13:25:19 - [MESSAGE][PASSED] - Text '750' is set on object 'Object Repository/tour/fields/input_adult_price'
+
+2018-11-01 13:25:19 - [MESSAGE][PASSED] - Browser is scrolled to position x = 500, y = 500
+
+2018-11-01 13:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/span_enable_child' is clicked on
+
+2018-11-01 13:25:20 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/tour/fields/input_child_count'
+
+2018-11-01 13:25:20 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/tour/fields/input_child_price'
+
+2018-11-01 13:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/span_enable_infant' is clicked on
+
+2018-11-01 13:25:21 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/tour/fields/input_infant_count'
+
+2018-11-01 13:25:21 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/tour/fields/input_infant_price'
+
+2018-11-01 13:25:21 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/tour/fields/select_option'  using regular expression
+
+2018-11-01 13:25:21 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/tour/fields/input_days'
+
+2018-11-01 13:25:22 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/tour/fields/input_nights'
+
+2018-11-01 13:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/select_type' is clicked on
+
+2018-11-01 13:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/select_type_option' is clicked on
+
+2018-11-01 13:25:22 - [MESSAGE][PASSED] - All options with value 'yes' are selected in object 'Object Repository/tour/fields/select_featured'  using regular expression
+
+2018-11-01 13:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/autocomplete_location_selector' is clicked on
+
+2018-11-01 13:25:23 - [MESSAGE][PASSED] - Text 'Thiruvananthapuram' is set on object 'Object Repository/tour/fields/autocomplete_location_control'
+
+2018-11-01 13:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/autocomplete_location_trigger' is clicked on
+
+2018-11-01 13:25:25 - [MESSAGE][PASSED] - phpTravels.Tour.SetTourDetails is PASSED
+
+2018-11-01 13:25:25 - [TEST_STEP][PASSED] - phpTravels.Tour.SetTourInclusions: phpTravels.Tour.SetTourInclusions is PASSED
+
+2018-11-01 13:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/a_inclusion' is clicked on
+
+2018-11-01 13:25:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-01 13:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_inclusion' is clicked on
+
+2018-11-01 13:25:32 - [MESSAGE][PASSED] - phpTravels.Tour.SetTourInclusions is PASSED
+
+2018-11-01 13:25:32 - [TEST_STEP][PASSED] - phpTravels.Tour.SetTourExclusions: phpTravels.Tour.SetTourExclusions is PASSED
+
+2018-11-01 13:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/a_exclusion' is clicked on
+
+2018-11-01 13:25:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-01 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-11-01 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-11-01 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-11-01 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-11-01 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-11-01 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-11-01 13:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-11-01 13:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/checkbox_exclusion' is clicked on
+
+2018-11-01 13:25:34 - [MESSAGE][PASSED] - phpTravels.Tour.SetTourExclusions is PASSED
+
+2018-11-01 13:25:34 - [TEST_STEP][PASSED] - phpTravels.Tour.SaveTour: phpTravels.Tour.SaveTour is PASSED
+
+2018-11-01 13:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/tour/fields/button_submit' is clicked on
+
+2018-11-01 13:25:39 - [MESSAGE][PASSED] - Object 'Object Repository/tour/fields/table_list' is present
+
+2018-11-01 13:25:39 - [MESSAGE][PASSED] - phpTravels.Tour.SaveTour is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/AddSupplier" classname="Test Cases/User/AddSupplier" status="PASSED">
+         <system-out><![CDATA[2018-11-01 13:25:39 - [TEST_CASE][PASSED] - Test Cases/User/AddSupplier: Test Cases/User/AddSupplier
+
+2018-11-01 13:25:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/navigation/a_account' is clicked on
+
+2018-11-01 13:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/navigation/a_account' is clicked on
+
+2018-11-01 13:25:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/navigation/a_supplier' is clicked on
+
+2018-11-01 13:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/navigation/a_supplier' is clicked on
+
+2018-11-01 13:25:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/action/button_add' is clicked on
+
+2018-11-01 13:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/action/button_add' is clicked on
+
+2018-11-01 13:25:44 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-01 13:25:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-01 13:25:44 - [TEST_STEP][PASSED] - setText: Text 'Renu' is set on object 'Object Repository/user/supplier/fields/input_first_name'
+
+2018-11-01 13:25:45 - [MESSAGE][PASSED] - Text 'Renu' is set on object 'Object Repository/user/supplier/fields/input_first_name'
+
+2018-11-01 13:25:45 - [TEST_STEP][PASSED] - setText: Text 'Rahul' is set on object 'Object Repository/user/supplier/fields/input_last_name'
+
+2018-11-01 13:25:45 - [MESSAGE][PASSED] - Text 'Rahul' is set on object 'Object Repository/user/supplier/fields/input_last_name'
+
+2018-11-01 13:25:45 - [TEST_STEP][PASSED] - setText: Text 'tr2@test.com' is set on object 'Object Repository/user/supplier/fields/input_email'
+
+2018-11-01 13:25:45 - [MESSAGE][PASSED] - Text 'tr2@test.com' is set on object 'Object Repository/user/supplier/fields/input_email'
+
+2018-11-01 13:25:45 - [TEST_STEP][PASSED] - setText: Text 'Inapp2.0' is set on object 'Object Repository/user/supplier/fields/input_password'
+
+2018-11-01 13:25:46 - [MESSAGE][PASSED] - Text 'Inapp2.0' is set on object 'Object Repository/user/supplier/fields/input_password'
+
+2018-11-01 13:25:46 - [TEST_STEP][PASSED] - setText: Text '8891767706' is set on object 'Object Repository/user/supplier/fields/input_mobile'
+
+2018-11-01 13:25:46 - [MESSAGE][PASSED] - Text '8891767706' is set on object 'Object Repository/user/supplier/fields/input_mobile'
+
+2018-11-01 13:25:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/fields/div_country_initiate' is clicked on
+
+2018-11-01 13:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/fields/div_country_initiate' is clicked on
+
+2018-11-01 13:25:47 - [TEST_STEP][PASSED] - setText: Text 'India' is set on object 'Object Repository/user/supplier/fields/input_select_country'
+
+2018-11-01 13:25:47 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/user/supplier/fields/input_select_country'
+
+2018-11-01 13:25:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/fields/div_county_select' is clicked on
+
+2018-11-01 13:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/fields/div_county_select' is clicked on
+
+2018-11-01 13:25:47 - [TEST_STEP][PASSED] - setText: Text 'Thannikattethu' is set on object 'Object Repository/user/supplier/fields/input_address_line1'
+
+2018-11-01 13:25:48 - [MESSAGE][PASSED] - Text 'Thannikattethu' is set on object 'Object Repository/user/supplier/fields/input_address_line1'
+
+2018-11-01 13:25:48 - [TEST_STEP][PASSED] - setText: Text 'Kadapra Mannar' is set on object 'Object Repository/user/supplier/fields/input_address_line2'
+
+2018-11-01 13:25:48 - [MESSAGE][PASSED] - Text 'Kadapra Mannar' is set on object 'Object Repository/user/supplier/fields/input_address_line2'
+
+2018-11-01 13:25:48 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Tours' are selected in object 'Object Repository/user/supplier/fields/select_apply_for'  using regular expression
+
+2018-11-01 13:25:49 - [MESSAGE][PASSED] - All options with value 'Tours' are selected in object 'Object Repository/user/supplier/fields/select_apply_for'  using regular expression
+
+2018-11-01 13:25:49 - [TEST_STEP][PASSED] - setText: Text 'User' is set on object 'Object Repository/user/supplier/fields/input_item_name'
+
+2018-11-01 13:25:49 - [MESSAGE][PASSED] - Text 'User' is set on object 'Object Repository/user/supplier/fields/input_item_name'
+
+2018-11-01 13:25:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/fields/ul_select_hotel' is clicked on
+
+2018-11-01 13:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/fields/ul_select_hotel' is clicked on
+
+2018-11-01 13:25:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/fields/input_select_hotel' is clicked on
+
+2018-11-01 13:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/fields/input_select_hotel' is clicked on
+
+2018-11-01 13:25:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/fields/ul_select_tour' is clicked on
+
+2018-11-01 13:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/fields/ul_select_tour' is clicked on
+
+2018-11-01 13:25:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/fields/input_select_tour' is clicked on
+
+2018-11-01 13:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/fields/input_select_tour' is clicked on
+
+2018-11-01 13:25:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/fields/ul_select_car' is clicked on
+
+2018-11-01 13:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/fields/ul_select_car' is clicked on
+
+2018-11-01 13:25:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/fields/input_select_car' is clicked on
+
+2018-11-01 13:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/fields/input_select_car' is clicked on
+
+2018-11-01 13:25:50 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= 5, (i++)]): Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:50 - [TEST_STEP][PASSED] - Statement - If (CanAdd == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:50 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:50 - [TEST_STEP][PASSED] - Statement - If (CanEdit == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:50 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:51 - [TEST_STEP][PASSED] - Statement - If (CanDelete == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:51 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:51 - [TEST_STEP][PASSED] - Statement - If (CanAdd == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:51 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:51 - [TEST_STEP][PASSED] - Statement - If (CanEdit == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:51 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:51 - [TEST_STEP][PASSED] - Statement - If (CanDelete == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:51 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:51 - [TEST_STEP][PASSED] - Statement - If (CanAdd == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:51 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:51 - [TEST_STEP][PASSED] - Statement - If (CanEdit == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:51 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:52 - [TEST_STEP][PASSED] - Statement - If (CanDelete == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:52 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:52 - [TEST_STEP][PASSED] - Statement - If (CanAdd == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:52 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:52 - [TEST_STEP][PASSED] - Statement - If (CanEdit == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:52 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:52 - [TEST_STEP][PASSED] - Statement - If (CanDelete == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:52 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:53 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:53 - [TEST_STEP][PASSED] - Statement - If (CanAdd == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:53 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:53 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_add' is checked
+
+2018-11-01 13:25:53 - [TEST_STEP][PASSED] - Statement - If (CanEdit == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:53 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:53 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_edit' is checked
+
+2018-11-01 13:25:53 - [TEST_STEP][PASSED] - Statement - If (CanDelete == "1"): Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:53 - [TEST_STEP][PASSED] - check: Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:54 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/checkbox_all_delete' is checked
+
+2018-11-01 13:25:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/action/button_submit' is clicked on
+
+2018-11-01 13:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/action/button_submit' is clicked on
+
+2018-11-01 13:25:56 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-01 13:25:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-01 13:25:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/user/supplier/fields/created_supplier' is present
+
+2018-11-01 13:25:56 - [MESSAGE][PASSED] - Object 'Object Repository/user/supplier/fields/created_supplier' is present
+
+2018-11-01 13:25:56 - [TEST_STEP][PASSED] - Statement - println("Admin added successfully"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/DeleteSupplier" classname="Test Cases/User/DeleteSupplier" status="PASSED">
+         <system-out><![CDATA[2018-11-01 13:25:56 - [TEST_CASE][PASSED] - Test Cases/User/DeleteSupplier: Test Cases/User/DeleteSupplier
+
+2018-11-01 13:25:56 - [TEST_STEP][FAILED] - Statement - Try: Unable to accept alert (Root cause: org.openqa.selenium.NoAlertPresentException: no alert open
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 31e6bee05245c3fee45f2472632e062c)
+
+2018-11-01 13:25:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/action/checkbox_supplier' is clicked on
+
+2018-11-01 13:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/action/checkbox_supplier' is clicked on
+
+2018-11-01 13:25:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/user/supplier/action/button_delete' is clicked on
+
+2018-11-01 13:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/user/supplier/action/button_delete' is clicked on
+
+2018-11-01 13:25:58 - [TEST_STEP][FAILED] - acceptAlert: Unable to accept alert (Root cause: org.openqa.selenium.NoAlertPresentException: no alert open
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 31e6bee05245c3fee45f2472632e062c)
+
+2018-11-01 13:26:00 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: org.openqa.selenium.NoAlertPresentException: no alert open
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RENU-PC', ip: '192.168.1.75', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Renu\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 31e6bee05245c3fee45f2472632e062c)
+[[ATTACHMENT|D:\\Katalon_Works\\Katalon_Assignment_2\\Renu_Katalon_Assignment\\Reports\\ManageOperationForNewAdmin\\20181101_132432\\1541058959674.png]]
+
+2018-11-01 13:26:00 - [TEST_STEP][PASSED] - Statement - Catch (Exception ex): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/DeleteAdmin" classname="Test Cases/User/DeleteAdmin" status="PASSED">
+         <system-out><![CDATA[2018-11-01 13:26:00 - [TEST_CASE][PASSED] - Test Cases/User/DeleteAdmin: Test Cases/User/DeleteAdmin
+
+2018-11-01 13:26:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/common/logout/button_Logout' is clicked on
+
+2018-11-01 13:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/common/logout/button_Logout' is clicked on
+
+2018-11-01 13:26:01 - [TEST_STEP][PASSED] - phpTravels.Common.Login: phpTravels.Common.Login is PASSED
+
+2018-11-01 13:26:01 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/login/input_email'
+
+2018-11-01 13:26:02 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/login/input_password'
+
+2018-11-01 13:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/common/login/button_Login' is clicked on
+
+2018-11-01 13:26:02 - [MESSAGE][PASSED] - phpTravels.Common.Login is PASSED
+
+2018-11-01 13:26:02 - [TEST_STEP][PASSED] - phpTravels.Admin.NavigateToAdminPage: phpTravels.Admin.NavigateToAdminPage is PASSED
+
+2018-11-01 13:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/dashboard/a_account' is clicked on
+
+2018-11-01 13:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/dashboard/a_admin' is clicked on
+
+2018-11-01 13:26:09 - [MESSAGE][PASSED] - phpTravels.Admin.NavigateToAdminPage is PASSED
+
+2018-11-01 13:26:09 - [TEST_STEP][PASSED] - phpTravels.Admin.DeleteAdmin: phpTravels.Admin.DeleteAdmin is PASSED
+
+2018-11-01 13:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/action/checkbox_admin' is clicked on
+
+2018-11-01 13:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/user/admin/action/button_delete' is clicked on
+
+2018-11-01 13:26:10 - [MESSAGE][PASSED] - Alert accepted
+
+2018-11-01 13:26:16 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-11-01 13:26:16 - [MESSAGE][PASSED] - phpTravels.Admin.DeleteAdmin is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LogOutNewAdmin" classname="Test Cases/Common/LogOutNewAdmin" status="PASSED">
+         <system-out><![CDATA[2018-11-01 13:26:16 - [TEST_CASE][PASSED] - Test Cases/Common/LogOutNewAdmin: Test Cases/Common/LogOutNewAdmin
+
+2018-11-01 13:26:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/common/logout/button_Logout' is clicked on
+
+2018-11-01 13:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/common/logout/button_Logout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-01 13:24:35 - [TEST_SUITE][PASSED] - ManageOperationForNewAdmin: Test Cases/Common/LogOutNewAdmin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
